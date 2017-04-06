@@ -25,8 +25,7 @@ Avec plaisir ! / Un café plutôt…
 **Découvrir, créer & partager** accompagnée de personnes **fiables et inspirantes**, dans **le respect de mes valeurs** et toujours **avec enthousiasme !**
 
 
-Ces valeurs représentent la raison d'être et les objectifs qui m'animent au quotidien. Ils incarnent le rapport que j'entretiens avec le travail et le design.
-
+Ces valeurs incarnent la raison d'être et les objectifs qui m'animent au quotidien. Elles représentent le rapport que j'entretiens avec le travail et le design.
 
 ## Ce que j'aime faire
 
@@ -76,13 +75,14 @@ Depuis 2013 je ne cesse de parcourir la France pour rencontrer & partager avec d
 ## Hobbies
 Une partie de mes centres d'intérêts :
 
-## Design UI
-
-UI pour User Interface, c'est à dire que je conçois des interfaces utiles et utilisables pour les utilisateurs, en portant une attention particulière à l'aspect ergonomique de ce que je fais.
-
 ## UX Design
 
 UX pour User eXperience, je déploie des méthodes allant de l'interview au test utilisateur pour permettre à chacun de s'exprimer sur ce qu'il utilise afin de repérer les points de friction et trouver des pistes d'améliorations.
+
+
+## Design UI
+
+UI pour User Interface, c'est à dire que je conçois des interfaces utiles et utilisables pour les utilisateurs, en portant une attention particulière à l'aspect ergonomique de ce que je réalise.
 
 ## Sketchnotes
 
