@@ -1,32 +1,15 @@
-index.<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>Portfolio de Maiwann alias Maïtané Lenoir</title>
   </head>
   <body>
-    <header>
-      <h1>
-        <a href="http://www.maiwann.net">
-        <!-- Est-ce qu'il faut un attribut title ? -->
-          <!-- Ajouter qqchose du genre: <span class="visually-hidden"> Maïtané Lenoir - Portfolio </span> cc Folio Stéphanie Walter ?  -->
-          <img src="img/logo.svg" alt="Maiwann">
-          <!-- Remplacer par un svg -->
-        </a>
-      </h1>
-      <button name="nav_mobile" type="button">
-        Menu
-        <!-- Ajouter un bouton hamburger ou un contour au mot Menu -->
-      </button>
-      <nav>
-        <ul>
-          <li>Accueil</li>
-          <li>Qui suis-je ?</li>
-          <li>Ce que je fais</li>
-          <li>Me contacter</li>
-        </ul>
-      </nav>
-    </header>
+    <!-- header ici -->
+
+    <!--#include file="header.shtml" -->
+
+    <!--#echo var="DATE_LOCAL" -->
 
     <main>
       <section id="entete">
@@ -35,7 +18,7 @@ index.<!DOCTYPE html>
           <!-- Remplacer par un svg -->
         </h1>
         <h2>
-          UX & Webdesign
+          UX / Webdesign
         </h2>
       </section>
 
