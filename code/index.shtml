@@ -9,8 +9,6 @@
 
     <!--#include file="header.shtml" -->
 
-    <!--#echo var="DATE_LOCAL" -->
-
     <main>
       <section id="entete">
         <h1>
@@ -18,7 +16,7 @@
           <!-- Remplacer par un svg -->
         </h1>
         <h2>
-          UX / Webdesign
+          UX & Webdesign
         </h2>
       </section>
 
