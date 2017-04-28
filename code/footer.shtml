@@ -1,0 +1,43 @@
+<footer>
+  <h1>
+    <span>Portfolio de Maïtané Lenoir alias</span>
+    <img src="img/logo.svg" alt="Maiwann">
+    <!-- Remplacer par un svg -->
+  </h1>
+  <section>
+    <h2>Retrouvez-moi via</h2>
+    <ul>
+      <li>
+        <a href="mailto:maitane.lenoir@gmail.com">
+          <img src="img/icone_mail.svg" alt="Icône mail">
+        </a>
+        <span> maitane.lenoir@gmail.com </span>
+      </li>
+      <li>
+        <a href="https://www.twitter.com/maiwann_">
+          <img src="img/icone_twitter.svg" alt="Icône Twitter">
+        </a>
+        <span> @maiwann_ </span>
+      </li>
+      <li>
+        <a href="https://mastodon.social/@maiwann">
+          <img src="img/icone_mastodon.svg" alt="Icône Mastodon">
+        </a>
+        <span> @maiwann@mastodon.social </span>
+      </li>
+  </section>
+  <section>
+    <h1> Mon dernier article: </h1>
+    <a href="https://perspectives.design/emotion-et-design-le-couple-ideal/">
+      <p>
+        <span>Émotion et Design, le couple idéal</span> — à lire sur Perspectives
+      </p>
+    </a>
+  </section>
+  <a href="#surprise">
+    <button> Une surprise ? </button>
+  </a>
+  <a href="http://competitionremuneration.metiers-graphiques.fr/">
+    <img src="img/competition_remunaration.svg" alt="Logo Compétition = Rémunération">
+  </a>
+</footer>
