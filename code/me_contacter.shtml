@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Me contacter - Portfolio de Maiwann alias Maïtané Lenoir - UX & Webdesigner freelance</title>
+  </head>
+  <body>
+    <!--#include file="header.shtml" -->
+    <main>
+      <header>
+        <h1>Me contacter</h1>
+        <p>
+          Pour m’écrire c’est par ici, via le formulaire juste en-dessous ↓ ou via mail sur maitane.lenoir[@]gmail.com
+        </p>
+      </header>
+      <form>
+        <label for="nom">
+          Votre nom
+        </label>
+        <input type="text" id="nom" name="nom" required>
+        <label for="email">
+          Votre email
+        </label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">
+          Votre message
+        </label>
+        <textarea id="message" name="message" required>
+        </textarea>
+        <button type="submit">
+          Envoyer le message
+        </button>
+      </form>
+      <section>
+        <span>Vous pouvez aussi me retrouver sur:</span>
+        <ul>
+          <li>
+            <img src="img/icone_twitter.svg" alt="Icône Twitter">
+            <span> Twitter:
+              <a href="https://www.twitter.com/maiwann_">
+                @maiwann_
+              </a>
+            </span>
+          </li>
+          <li>
+            <img src="img/icone_mastodon.svg" alt="Icône Mastodon">
+            <span> Mastodon:
+              <a href="https://mastodon.social/@maiwann">
+                @maiwann@mastodon.social
+              </a>
+            </span>
+          </li>
+        </ul>
+      </section>
+
+    </main>
+    <!--#include file="footer.shtml" -->
+  </body>
+</html>
+
+<!-- Remplacer les <img> par des <svg> mais que devient l'attribut alt ? -->
