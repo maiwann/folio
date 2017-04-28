@@ -55,11 +55,11 @@
         </div>
         <footer>
           <p>
-            Si vous voulez en savoir plus, vous pouvez retrouver l’ensemble de mes aspirations dans <a href="#">mon manifeste.</a>
+            Si vous voulez en savoir plus, vous pouvez retrouver l’ensemble de mes aspirations dans <a href="manifeste.shtml">mon manifeste.</a>
           </p>
-          <button>
+          <a href="manifeste.shtml">
             Lire mon manifeste
-          </button>
+          </a>
       </section>
 
       <section>
@@ -89,8 +89,8 @@
       <section>
         <h1>Envie d'en discuter ?</h1>
         <span> Rencontrons-nous </span>
-        <button> Dans un café ! </button>
-        <button> Plutôt dans un parc…</button>
+        <a href="me_contacter.shtml"> Dans un café ! </a>
+        <a href="me_contacter.shtml"> Plutôt dans un parc…</a>
       </section>
 
     </main>

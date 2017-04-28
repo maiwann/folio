@@ -29,8 +29,8 @@
       <section>
         <h1>Envie de discuter ?</h1>
         <span>Et si on prenait un chocolat ?</span>
-        <button>Avec plaisir !</button>
-        <button>Un café plutôt…</button>
+        <a href="me_contacter.shtml">Avec plaisir !</a>
+        <a href="me_contacter.shtml">Un café plutôt…</a>
       </section>
       <section>
         <h1>Je me passionne pour tout un tas de choses</h1>
