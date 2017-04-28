@@ -9,7 +9,7 @@
     <!--#include file="header.shtml" -->
 
     <main>
-      <section id="entete">
+      <header>
         <h1>
           <img src="img/logo.svg" alt="Maiwann">
           <!-- Remplacer par un svg -->
@@ -17,7 +17,7 @@
         <h2>
           UX & Webdesign
         </h2>
-      </section>
+      </header>
 
       <section id="maximes">
         <div id="raison_d_etre">

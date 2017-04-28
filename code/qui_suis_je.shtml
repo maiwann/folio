@@ -7,8 +7,8 @@
   <body>
     <!--#include file="header.shtml" -->
     <main>
-      <h1>Qui suis-je ?</h1>
-      <section>
+      <header>
+        <h1>Qui suis-je ?</h1>
         <img src="img/photo_profil.jpg" alt="Une photo de moi">
         <p>
           Amoureuse du web et du numérique, j'aime affiner et améliorer les idées pour les rendre accessibles à chacun.
@@ -25,7 +25,7 @@
         <p>
           Aux aguets pour découvrir toujours plus de méthodes et d'outils créatifs, je suis en veille permanente et le web est si vaste que je ne m'y ennuie jamais !
         </p>
-      </section>
+      </header>
       <section>
         <h1>Envie de discuter ?</h1>
         <span>Et si on prenait un chocolat ?</span>
