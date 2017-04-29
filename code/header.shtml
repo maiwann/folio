@@ -1,4 +1,11 @@
-<header>
+<head>
+
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<header id="main_header">
   <h1>
     <a href="http://www.maiwann.net">
     <!-- Est-ce qu'il faut un attribut title ? -->
