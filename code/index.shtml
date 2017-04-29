@@ -57,12 +57,12 @@
           <p>
             Si vous voulez en savoir plus, vous pouvez retrouver l’ensemble de mes aspirations dans <a  class="lien_inline" href="manifeste.shtml">mon manifeste.</a>
           </p>
-          <a class="lien_bouton" href="manifeste.shtml">
+          <a class="lien_button primary_button" href="manifeste.shtml">
             Lire mon manifeste
           </a>
       </section>
 
-      <section>
+      <section id="wishlist">
         <h1> Ma wishlist </h1>
         <p>J'aime collaborer aux projets qui portent des valeurs telles que:</p>
         <ul>
@@ -82,15 +82,15 @@
           <li>Service Public</li>
         </ul>
         <footer>
-          Si c'est votre cas, nous avons des choses à faire <a href="#">ensemble !</a>
+          Si c'est votre cas, nous avons des choses à faire ensemble !
         </footer>
       </section>
 
       <section>
         <h1>Envie d'en discuter ?</h1>
         <span> Rencontrons-nous </span>
-        <a class="lien_bouton" href="me_contacter.shtml"> Dans un café ! </a>
-        <a class="lien_bouton" href="me_contacter.shtml"> Plutôt dans un parc…</a>
+        <a class="lien_button primary_button" href="me_contacter.shtml"> Dans un café ! </a>
+        <a class="lien_button secondary_button" href="me_contacter.shtml"> Plutôt dans un parc…</a>
       </section>
 
     </main>
