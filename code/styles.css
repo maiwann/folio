@@ -53,18 +53,23 @@ body {
 }
 
 main {
-  margin: 0 20px;
+  margin: 0 1em;
 }
 
-main>section {
+main > section,
+footer > section {
   margin: 3em auto;
 }
 
-main>section>h1 {
+main > section > h1 {
   margin-bottom: 2em;
 
   font-size: 1.2em;
   font-weight: 800;
+}
+
+footer {
+  padding: 2em;
 }
 
 a {
@@ -81,10 +86,12 @@ a {
   display: block;
   padding: 0.8em 1em;
   margin: 2em auto;
+  min-width: 11em;
 
   font-weight: 600;
   font-size: 1.2em;
   text-align: center;
+  color: black;
 
   border-radius: 2em;
 }
@@ -117,20 +124,27 @@ a {
 
 /* Main footer */
 
+footer > section > h1 {
+  margin-bottom: 2em;
+
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
 #main_footer {
   display: flex;
   flex-direction: column;
 
-  width: 100%;
+  width: calc(100%-4em);
 
   color: white;
 
   background-color: #AB3B16;
 }
 
-#main_footer h1 {
+#main_footer > h1 {
   margin: 2em auto;
-  width: 12em;
+  width: 10em;
 
   font-size: 1.4em;
   font-weight: 200;
@@ -145,6 +159,30 @@ a {
 
 #main_footer h1 img {
   margin-left: 0.6em;
+}
+
+#main_footer li {
+  margin: 1em 0;
+  display: flex;
+  align-items: center;
+}
+
+#main_footer li span {
+  margin-left: 0.5em;
+}
+
+#dernier_article span {
+  font-weight: 200;
+}
+
+#dernier_article span {
+  font-weight: 600;
+}
+
+#main_footer > a {
+  margin: 3em auto;
+
+  text-align: center;
 }
 
 /* Index */

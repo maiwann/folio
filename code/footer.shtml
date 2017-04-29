@@ -11,7 +11,7 @@
     <!-- Remplacer par un svg -->
   </h1>
   <section>
-    <h2>Retrouvez-moi via</h2>
+    <h1>Retrouvez-moi via :</h1>
     <ul>
       <li>
         <a href="mailto:maitane.lenoir@gmail.com">
@@ -32,7 +32,7 @@
         <span> @maiwann@mastodon.social </span>
       </li>
   </section>
-  <section>
+  <section id="dernier_article">
     <h1> Mon dernier article: </h1>
     <a href="https://perspectives.design/emotion-et-design-le-couple-ideal/">
       <p>
@@ -40,10 +40,10 @@
       </p>
     </a>
   </section>
-  <a href="#surprise">
-    <button> Une surprise ? </button>
+  <a href="#surprise" class="lien_button primary_button">
+    Une surprise ?
   </a>
   <a href="http://competitionremuneration.metiers-graphiques.fr/">
-    <img src="img/competition_remunaration.svg" alt="Logo Compétition = Rémunération">
+    <img src="img/competition_remuneration.svg" alt="Logo Compétition = Rémunération">
   </a>
 </footer>
