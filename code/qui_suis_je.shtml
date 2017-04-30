@@ -7,9 +7,9 @@
   <body>
     <!--#include file="header.shtml" -->
     <main>
-      <header>
+      <header id="qui_suis_je_header">
         <h1>Qui suis-je ?</h1>
-        <img src="img/photo_profil.jpg" alt="Une photo de moi">
+        <img src="img/photo_profil.jpg" alt="Une photo de moi" id="photo_profil">
         <p>
           Amoureuse du web et du numérique, j'aime affiner et améliorer les idées pour les rendre accessibles à chacun.
         </p>
@@ -29,10 +29,10 @@
       <section>
         <h1>Envie de discuter ?</h1>
         <span>Et si on prenait un chocolat ?</span>
-        <a href="me_contacter.shtml">Avec plaisir !</a>
-        <a href="me_contacter.shtml">Un café plutôt…</a>
+        <a class="lien_button primary_button" href="me_contacter.shtml">Avec plaisir !</a>
+        <a class="lien_button secondary_button" href="me_contacter.shtml">Un café plutôt…</a>
       </section>
-      <section>
+      <section id="passions">
         <h1>Je me passionne pour tout un tas de choses</h1>
         <section>
           <h1>Écrire pour partager ma vision et mes connaissances</h1>
@@ -58,7 +58,7 @@
             </a>
           </article>
         </section>
-        <section>
+        <section id="rencontres">
           <h1>Rencontrer des gens et échanger autour de mon métier (et pas que)</h1>
           <h2>2017</h2>
           <ul>

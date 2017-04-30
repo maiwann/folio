@@ -56,6 +56,18 @@ main {
   margin: 0 1em;
 }
 
+main > header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em 0;
+}
+
+main > header > h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 3em;
+}
+
 main > section,
 footer > section {
   margin: 3em auto;
@@ -68,7 +80,7 @@ main > section > h1 {
   font-weight: 800;
 }
 
-footer {
+main > footer {
   padding: 2em;
 }
 
@@ -186,6 +198,7 @@ footer > section > h1 {
 }
 
 /* Index */
+/* Index Header*/
 
 #index_header {
   margin: 8em 0;
@@ -242,4 +255,76 @@ footer > section > h1 {
 
 #wishlist li {
   margin: 0.5em 0;
+}
+
+/* Qui suis-je ? */
+
+#photo_profil {
+  margin: 1.5em 0;
+}
+
+#qui_suis_je_header p {
+  margin: 1em 0;
+}
+
+/*Passions*/
+
+#passions > section > h1 {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+#passions > section > h2 {
+  width: 100%;
+  margin-top: 2em;
+
+  font-size: 1.6em;
+  font-weight: 600;
+  text-align: center;
+}
+
+#passions article {
+  margin: 2em auto;
+}
+
+#passions article h1 {
+  margin: 1em 0;
+
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+#passions article a {
+  display: inline-block;
+  margin: 1em 0;
+  width: 100%;
+
+  font-weight: 600;
+  text-align: right;
+}
+
+/*Rencontres*/
+
+
+#rencontres h2:before,
+#rencontres h2:after {
+  content: "";
+  display: inline-block;
+  width: calc(100% - 1em);
+  margin: 0 0.5em 0.3em;
+  border-bottom: 4px solid #FFAB1D;
+
+  background-color; lime;
+}
+
+
+#rencontres ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#rencontres img {
+  max-width: 9em;
 }
