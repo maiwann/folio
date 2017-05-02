@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
     <title> Lexigone - Portfolio de Maiwann alias Maïtané Lenoir - UX & Webdesigner freelance</title>
   </head>
   <body>
     <!--#include file="header.shtml" -->
-    <main>
+    <main id="main_projet">
       <header>
         <h1>Lexigone</h1>
         <h3>UX Design · Experience Map</h3>
@@ -44,7 +43,11 @@
           Texte descriptif: Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venusaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmander Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmeleon Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charizard Lorem ipsum dolor sit amet, consectetur adipiscing elit. Squirtle Lorem ipsum dolor sit amet, consectetur adipiscing elit. Wartortle Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blastoise Lorem ipsum dolor sit amet, consectetur adipiscing elit. Caterpie
         </p>
       </section>
-        <a href="#"> Voir le site </a>
+      <a class="lien_button primary_button" href="#"> Voir le site </a>
+
+      <a class="lien_inline" href="ce_que_je_fais.shtml">
+        ← Revenir à la page précédente
+      </a>
     </main>
     <!--#include file="footer.shtml" -->
   </body>

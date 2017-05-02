@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
     <title>Me contacter - Portfolio de Maiwann alias Maïtané Lenoir - UX & Webdesigner freelance</title>
   </head>
   <body>
@@ -10,7 +9,8 @@
       <header>
         <h1>Me contacter</h1>
         <p>
-          Pour m’écrire c’est par ici, via le formulaire juste en-dessous ↓ ou via mail sur maitane.lenoir[@]gmail.com
+          Pour m’écrire c’est par ici, via le formulaire juste en-dessous ↓
+          ou via mail sur maitane.lenoir[@]gmail.com
         </p>
       </header>
       <form>
@@ -27,28 +27,26 @@
         </label>
         <textarea id="message" name="message" required>
         </textarea>
-        <button type="submit">
+        <button type="submit" class="lien_button primary_button">
           Envoyer le message
         </button>
       </form>
-      <section>
+      <section id="reseaux_sociaux">
         <span>Vous pouvez aussi me retrouver sur:</span>
         <ul>
           <li>
             <img src="img/icone_twitter.svg" alt="Icône Twitter">
-            <span> Twitter:
-              <a href="https://www.twitter.com/maiwann_">
-                @maiwann_
-              </a>
-            </span>
+            <span> Twitter : </span>
+            <a class="lien_inline" href="https://www.twitter.com/maiwann_" >
+              @maiwann_
+            </a>
           </li>
           <li>
             <img src="img/icone_mastodon.svg" alt="Icône Mastodon">
-            <span> Mastodon:
-              <a href="https://mastodon.social/@maiwann">
-                @maiwann@mastodon.social
-              </a>
-            </span>
+            <span> Mastodon : </span>
+            <a class="lien_inline" href="https://mastodon.social/@maiwann">
+              @maiwann
+            </a>
           </li>
         </ul>
       </section>

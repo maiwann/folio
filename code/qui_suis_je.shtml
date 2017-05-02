@@ -29,11 +29,13 @@
       <section>
         <h1>Envie de discuter ?</h1>
         <span>Et si on prenait un chocolat ?</span>
-        <a class="lien_button primary_button" href="me_contacter.shtml">Avec plaisir !</a>
-        <a class="lien_button secondary_button" href="me_contacter.shtml">Un café plutôt…</a>
+        <div class="cote_cote">
+          <a class="lien_button primary_button" href="me_contacter.shtml">Avec plaisir !</a>
+          <a class="lien_button secondary_button" href="me_contacter.shtml">Un café plutôt…</a>
+        </div>
       </section>
       <section id="passions">
-        <h1>Je me passionne pour tout un tas de choses</h1>
+        <h1>Je me passionne pour tout un tas de choses :</h1>
         <section>
           <h1>Écrire pour partager ma vision et mes connaissances</h1>
           <article>
@@ -113,7 +115,7 @@
             </li>
           </ul>
         </section>
-        <section>
+        <section id="hobbies">
           <h1>Et aussi…</h1>
           <ul>
             <li>

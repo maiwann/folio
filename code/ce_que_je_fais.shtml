@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
     <title>Ce que je fais - Portfolio de Maiwann alias Maïtané Lenoir - UX & Webdesigner freelance</title>
   </head>
   <body>
     <!--#include file="header.shtml" -->
-    <main>
+    <main id="main_ce_que_je_fais">
       <header>
         <h1>Ce que je fais</h1>
         <p>
-          De sites internets publics aux applications métiers, en passant par la réalisation d’IHM ou d’applications mobiles, je suis disponible pour vous guider dans le processus de recherche, conception et réalisation de votre interface. Si vous avez des questions, n’hésitez pas à <a href="me_contacter.shtml">me contacter</a> pour que nous en discutions.
+          De sites internets publics aux applications métiers, en passant par la réalisation d’IHM ou d’applications mobiles, je suis disponible pour vous guider dans le processus de recherche, conception et réalisation de votre interface.
+        </p>
+        <p>
+          Si vous avez des questions, n’hésitez pas à <a class="lien_inline" href="me_contacter.shtml">me contacter</a> pour que nous en discutions.
         </p>
         <p>
           NB: Certaines de mes réalisations sont soumises à confidentialité et ne peuvent être diffusées en ligne.
@@ -23,12 +25,14 @@
             UX pour User eXperience. Je déploie des méthodes allant de l'interview au test utilisateur pour permettre à chacun de s'exprimer sur ce qu'il utilise afin de repérer les points de friction et trouver des pistes d'améliorations.
           </p>
         </header>
-        <section>
-          <img src="img/vignette/projets/lexigone.jpg" alt="vignette du projet Lexigone">
-          <h1>Lexigone</h1>
-          <h3>UX Design · Expérience Map</h3>
-          <h2>Comment se déroule le processus de gestion d'un contrat ?</h2>
-        </section>
+        <ul class="liste_projets">
+          <li class="vignette_projet">
+            <img src="img/vignette/projets/lexigone.jpg" alt="vignette du projet Lexigone">
+            <h1>Lexigone</h1>
+            <h3>UX Design · Expérience Map</h3>
+            <h2>Comment se déroule le processus de gestion d'un contrat ?</h2>
+          </li>
+        </ul>
       </section>
       <section>
         <header>
@@ -37,18 +41,20 @@
             UI pour User Interface, c'est à dire que je conçois des interfaces utiles et utilisables pour les utilisateurs, en portant une attention particulière à l'aspect ergonomique de ce que je réalise.
           </p>
         </header>
-        <section>
-          <img src="img/vignette/projets/condor.jpg" alt="vignette du projet Condor">
-          <h1>Condor</h1>
-          <h3>UI Design · Refonte Responsive</h3>
-          <h2>Adapter la version mobile d'une application métier</h2>
-        </section>
-        <section>
-          <img src="img/vignette/projets/sesameEmploi.jpg"  alt="vignette du projet Sésame Emploi">
-          <h1>Sésame Emploi</h1>
-          <h3>UI Design · Refonte Responsive</h3>
-          <h2>Proposer une meilleure ergonomie lors du passage en responsive</h2>
-        </section>
+        <ul class="liste_projets">
+          <li class="vignette_projet">
+            <img src="img/vignette/projets/condor.jpg" alt="vignette du projet Condor">
+            <h1>Condor</h1>
+            <h3>UI Design · Refonte Responsive</h3>
+            <h2>Adapter la version mobile d'une application métier</h2>
+          </li>
+          <li class="vignette_projet">
+            <img src="img/vignette/projets/sesameEmploi.jpg"  alt="vignette du projet Sésame Emploi">
+            <h1>Sésame Emploi</h1>
+            <h3>UI Design · Refonte Responsive</h3>
+            <h2>Proposer une meilleure ergonomie lors du passage en responsive</h2>
+          </li>
+        </ul>
       </section>
       <section>
         <header>
@@ -57,31 +63,33 @@
             Les sketchnotes sont une prise de note sous forme graphique que j'apprécie pour mettre en forme visuellement mes idées. Je sketchnote conférences et moments de vie sans distinction.
           </p>
         </header>
-        <section>
-          <img src="img/vignette/projets/sketchnote1.jpg" alt="vignette du sketchnote Aperoweb Assistants vocaux">
-          <h1>Aperoweb Assistants vocaux</h1>
-        </section>
-        <section>
-          <img src="img/vignette/projets/sketchnote2.jpg" alt="vignette du sketchnote MiamOpenSud 2017">
-          <h1>MiamOpenSud · 2017</h1>
-        </section>
-        <section>
-          <img src="img/vignette/projets/sketchnote3.jpg" alt="vignette du sketchnote Moustic 2017">
-          <h1>Moustic 2017</h1>
-        </section>
-        <a href="#site_sketchnote">En voir plus</a>
+        <ul class="liste_projets">
+          <li class="vignette_sketchnote">
+            <img src="img/vignette/projets/sketchnote1.jpg" alt="vignette du sketchnote Aperoweb Assistants vocaux">
+            <h1>Aperoweb Assistants vocaux</h1>
+          </li>
+          <li class="vignette_sketchnote">
+            <img src="img/vignette/projets/sketchnote2.jpg" alt="vignette du sketchnote MiamOpenSud 2017">
+            <h1>MiamOpenSud · 2017</h1>
+          </li>
+          <li class="vignette_sketchnote">
+            <img src="img/vignette/projets/sketchnote3.jpg" alt="vignette du sketchnote Moustic 2017">
+            <h1>Moustic 2017</h1>
+          </li>
+        </ul>
+        <a class="lien_button primary_button" href="#site_sketchnote">En voir plus</a>
       </section>
       <section>
         <h1>Mais encore…</h1>
-        <section>
-          <img src="img/vignette/projets/dicodigital.jpg" alt="vignette du projet dico digital">
-          <h1>Dico Digital</h1>
-          <h3>Wireframe & Maquette Responsive</h3>
-          <h2>Dictionnaire pour ceux qui disent digital au lieu de numérique</h2>
-        </section>
+        <ul>
+          <li class="vignette_projet">
+            <img src="img/vignette/projets/lexigone.jpg" alt="vignette du projet dico digital">
+            <h1>Dico Digital</h1>
+            <h3>Wireframe & Maquette Responsive</h3>
+            <h2>Dictionnaire pour ceux qui disent digital au lieu de numérique</h2>
+          </li>
+        </ul>
       </section>
-
-
     </main>
     <!--#include file="footer.shtml" -->
   </body>
