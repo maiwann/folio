@@ -9,21 +9,21 @@
     <main>
       <header id="qui_suis_je_header">
         <h1>Qui suis-je ?</h1>
-        <img src="img/photo_profil.jpg" alt="Une photo de moi" id="photo_profil">
+        <img src="img/photo_profil_2.png" alt="Une photo de moi" id="photo_profil">
         <p>
-          Amoureuse du web et du numérique, j'aime affiner et améliorer les idées pour les rendre accessibles à chacun.
+          <em>Amoureuse du web et du numérique,</em> j'aime <em>affiner et améliorer les idées</em> pour les rendre accessibles à chacun.
         </p>
         <p>
-          Agile et curieuse, j'utilise toute une palette de compétences hétérogènes pour réaliser des sites responsive ou des applications métiers, sur très grands ou tout petits supports.
+          <em>Agile et curieuse,</em> j'utilise toute une palette de compétences hétérogènes pour réaliser des sites responsive ou des applications métiers, sur très grands ou tout petits supports.
         </p>
         <p>
-          Concrètement, je fais de l'UX Design en questionnant et observant les utilisateurs pour comprendre comment améliorer leur expérience, puis je conçois des solutions en mêlant graphisme et ergonomie dans une interface qui leur rendra la vie plus belle !
+          Concrètement, je fais de l'<em>UX Design</em> en questionnant et observant les utilisateurs pour comprendre comment <em>améliorer leur expérience,</em> puis je conçois des solutions en <em>mêlant graphisme et ergonomie</em> dans une interface qui leur rendra la vie plus belle !
         </p>
         <p>
-          Portée par mon expérience en équipe pluridisciplinaire, j'adhère à un échange constant avec chacun pour partager une vision commune autour d'un projet.
+          Portée par mon expérience en équipe pluridisciplinaire, j'adhère à un échange constant avec chacun pour partager <em>une vision commune autour d'un projet.</em>
         </p>
         <p>
-          Aux aguets pour découvrir toujours plus de méthodes et d'outils créatifs, je suis en veille permanente et le web est si vaste que je ne m'y ennuie jamais !
+          Aux aguets pour découvrir toujours plus de <em>méthodes et d'outils créatifs,</em> je suis en veille permanente et le web est si vaste que je ne m'y ennuie jamais !
         </p>
       </header>
       <section>
@@ -38,27 +38,33 @@
         <h1>Je me passionne pour tout un tas de choses :</h1>
         <section>
           <h1>Écrire pour partager ma vision et mes connaissances</h1>
-          <article>
-            <img src="img/vignette/article/design_emotionnel.jpg">
-            <h1>Émotion et Design, le couple idéal</h1>
-            <p>
-              Le Design émotionnel est le petit plus qui nous fait passer du statut de consommateurs à celui d’amoureux d’une marque. Il est mis en place chez...
-            </p>
-            <a href="https://perspectives.design/emotion-et-design-le-couple-ideal/">
-              Lire la suite sur Perspectives ➞
-            </a>
-            <!-- Mettre ➞ en :after ? -->
-          </article>
-          <article>
-            <img src="img/vignette/article/recette_webdesign.jpg">
-            <h1>Ma recette pour un webdesign réussi</h1>
-            <p>
-              Envisager les webdesigners comme des artistes est un quiproquo récurrent dans le milieu du web. Je ne compte plus le nombre...
-            </p>
-            <a href="http://www.24joursdeweb.fr/2015/ma-recette-pour-un-webdesign-reussi/">
-              Lire la suite sur 24 jours de web ➞
-            </a>
-          </article>
+          <ul class="liste_projets">
+            <li class="vignette_projet">
+              <article>
+                <img src="img/vignette/article/design_emotionnel.jpg">
+                <h1>Émotion et Design, le couple idéal</h1>
+                <p>
+                  Le Design émotionnel est le petit plus qui nous fait passer du statut de consommateurs à celui d’amoureux d’une marque. Il est mis en place chez...
+                </p>
+                <a href="https://perspectives.design/emotion-et-design-le-couple-ideal/">
+                  Lire la suite sur Perspectives ➞
+                </a>
+                <!-- Mettre ➞ en :after ? -->
+              </article>
+            </li>
+            <li class="vignette_projet">
+              <article>
+                <img src="img/vignette/article/recette_webdesign.jpg">
+                <h1>Ma recette pour un webdesign réussi</h1>
+                <p>
+                  Envisager les webdesigners comme des artistes est un quiproquo récurrent dans le milieu du web. Je ne compte plus le nombre...
+                </p>
+                <a href="http://www.24joursdeweb.fr/2015/ma-recette-pour-un-webdesign-reussi/">
+                  Lire la suite sur 24 jours de web ➞
+                </a>
+              </article>
+            </li>
+          </ul>
         </section>
         <section id="rencontres">
           <h1>Rencontrer des gens et échanger autour de mon métier (et pas que)</h1>

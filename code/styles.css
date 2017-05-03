@@ -107,6 +107,11 @@ textarea {
   font-family: "Open Sans", sans-serif;
 }
 
+em {
+  font-weight: 800;
+}
+
+
 .lien_inline {
   border-bottom: 1px solid black;
 }
@@ -138,6 +143,7 @@ textarea {
 .cote_cote {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 /* Main Header */
@@ -206,7 +212,7 @@ footer > section > h1 {
 	flex-direction: column;
 
 	margin: auto;
-	padding: 0 1em 2em;
+	padding: 1em 1em 2em;
 	max-width: 50em;
 
   color: white;
@@ -341,10 +347,6 @@ footer > section > h1 {
 	max-width: 18em;
 }
 
-#maximes em {
-  font-weight: 800;
-}
-
 /*Ce que j'aime faire*/
 
 
@@ -384,8 +386,17 @@ footer > section > h1 {
 
 /* Qui suis-je ? */
 
+#qui_suis_je_header {
+	text-align: center;
+}
+
 #photo_profil {
-  margin: 1.5em 0;
+  margin: 1em 0 1.5em;
+	max-width: 12em;
+}
+
+#qui_suis_je_header p {
+	text-align: left;
 }
 
 
@@ -443,21 +454,23 @@ footer > section > h1 {
 }
 
 #rencontres ul,
-#passions ul {
+#hobbies ul {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
 
+
 #rencontres li,
-#passions li {
-  padding: 0.5em;
-  width: calc(49% - 1em);
+#hobbies li {
+  padding: 1em;
+  max-width: 11em;
+	margin: auto;
 }
 
 #rencontres img,
-#passions img {
+#hobbies img {
   max-width: 100%;
 }
 
@@ -466,7 +479,7 @@ footer > section > h1 {
 .liste_projets {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 
@@ -493,7 +506,6 @@ footer > section > h1 {
 
 .vignette_sketchnote {
   padding: 2em 0;
-	margin: 0 1em;
 }
 
 .vignette_sketchnote h1 {
@@ -508,9 +520,15 @@ footer > section > h1 {
 
 
 #main_projet h2 {
-  margin-top: 1em;
+  margin: 1em auto 0;
+	text-align: center;
 
   font-weight: 600;
+}
+
+
+#main_projet h3 {
+	text-align: center;
 }
 
 #main_projet > header > p {
@@ -525,6 +543,10 @@ footer > section > h1 {
   margin: 2em 0 4em;
 }
 
+#main_projet figure img {
+  max-width: 100%;
+}
+
 #main_projet figcaption {
   margin: 0.5em 0 2em;
 
@@ -532,19 +554,28 @@ footer > section > h1 {
 }
 
 #main_projet .lien_button {
-  margin: 3em 0 4em;
+  margin: 3em auto 4em;
 }
 
 /*Me contacter*/
 
-form label {
+#main_me_contacter form {
+	width: 20em;
+}
+
+
+#main_me_contacter form p {
+	margin-bottom: 2em;
+}
+
+#main_me_contacter form label {
   display: block;
   margin-bottom: 0.5em;
 
   font-weight: 600;
 }
 
-form input {
+#main_me_contacter form input {
   display: block;
   margin: 1em 0 3em;
   padding: 0 0.5em;
@@ -554,7 +585,7 @@ form input {
   font-size: 1em;
 }
 
-form textarea {
+#main_me_contacter form textarea {
   display: block;
   margin: 1em 0 3em;
   padding: 0.2em 0.5em;
@@ -578,3 +609,12 @@ form textarea {
 
   font-weight: 600;
 }
+
+/*Faire les survols:
+Des liens (border jaune)
+Des images (border jaune aussi ?)
+
+Augmenter la différence entre les titres
+
+
+*/
