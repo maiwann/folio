@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Mastodon_logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="contact/reseauxSociaux/mastodon" transform="translate(-17.000000, -11.000000)" fill-rule="nonzero" fill="#000000">
+            <g id="Mastodon_logo" transform="translate(17.000000, 11.000000)">
+                <path d="M22.5,0 C10.0735931,-7.6089797e-16 1.52179594e-15,10.0735931 0,22.5 C-1.52179594e-15,34.9264069 10.0735931,45 22.5,45 C34.9264069,45 45,34.9264069 45,22.5 C45,10.0735931 34.9264069,7.6089797e-16 22.5,0 Z M22.3875,12.1995 L27.2133,12.1995 C26.2881,12.850695 25.9875,14.76738 25.9875,15.751215 L25.9875,24.84774 C25.9875,26.81541 24.40341,28.3995 22.3875,28.3995 C20.37159,28.3995 18.7875,26.81541 18.7875,24.84774 L18.7875,15.751215 C18.7875,13.78359 20.37159,12.1995 22.3875,12.1995 L22.3875,12.1995 Z M9.9675,14.4 C11.98341,14.4 13.5675,15.98409 13.5675,17.95176 L13.5675,27.04824 C13.5675,28.032075 13.8681,29.94876 14.7933,30.6 L9.9675,30.6 C7.95159,30.6 6.3675,29.01591 6.3675,27.04824 L6.3675,17.95176 C6.3675,15.98409 7.95159,14.4 9.9675,14.4 Z M34.7283,14.4 C36.744255,14.4 38.3283,15.98409 38.3283,17.95176 L38.3283,27.04824 C38.3283,29.01591 36.744255,30.6 34.7283,30.6 L29.9025,30.6 C30.8277,29.94876 31.1283,28.032075 31.1283,27.04824 L31.1283,17.95176 C31.1283,15.98409 32.71239,14.4 34.7283,14.4 Z" id="Shape"></path>
+                <circle id="Oval" cx="9.9675" cy="18.4725" r="1.2375"></circle>
+                <circle id="Oval" cx="9.9675" cy="22.5225" r="1.2375"></circle>
+                <circle id="Oval" cx="9.9675" cy="26.5725" r="1.2375"></circle>
+                <circle id="Oval" transform="translate(22.387500, 24.322500) scale(-1, 1) rotate(-180.000000) translate(-22.387500, -24.322500) " cx="22.3875" cy="24.3225" r="1.2375"></circle>
+                <circle id="Oval" transform="translate(22.387500, 20.272500) scale(-1, 1) rotate(-180.000000) translate(-22.387500, -20.272500) " cx="22.3875" cy="20.2725" r="1.2375"></circle>
+                <circle id="Oval" transform="translate(22.387500, 16.222500) scale(-1, 1) rotate(-180.000000) translate(-22.387500, -16.222500) " cx="22.3875" cy="16.2225" r="1.2375"></circle>
+                <circle id="Oval" transform="translate(34.717500, 18.472500) scale(-1, 1) translate(-34.717500, -18.472500) " cx="34.7175" cy="18.4725" r="1.2375"></circle>
+                <circle id="Oval" transform="translate(34.717500, 22.522500) scale(-1, 1) translate(-34.717500, -22.522500) " cx="34.7175" cy="22.5225" r="1.2375"></circle>
+                <circle id="Oval" transform="translate(34.717500, 26.572500) scale(-1, 1) translate(-34.717500, -26.572500) " cx="34.7175" cy="26.5725" r="1.2375"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio de Maiwann alias Maïtané Lenoir - UX & Webdesigner freelance</title>
+  </head>
+  <body>
+
+    <!--#include file="header.shtml" -->
+
+    <main>
+      <header id="index_header">
+        <h1>
+          <img src="img/logo_entete_2.svg" alt="Maiwann">
+          <!-- Remplacer par un svg qui s'écrit tout seul -->
+        </h1>
+        <h2>
+          UX & Webdesign
+        </h2>
+      </header>
+
+      <section id="maximes">
+        <section id="raison_d_etre">
+          <em>Concevoir pour tous</em> afin de créer un <em>monde éthique & inclusif</em> où chacun puisse se sentir <em>légitime.</em>
+        </section>
+        <section id="objectifs">
+          <em>Découvrir, créer & partager</em> accompagnée de personnes <em>fiables et inspirantes,</em> dans <em>le respect de mes valeurs</em> et toujours <em>avec enthousiasme !</em>
+        </section>
+        <footer>
+          <p>
+            Ces valeurs incarnent la raison d'être et les objectifs qui m'animent au quotidien. Elles représentent le rapport que j'entretiens avec le travail et le design, et guident mes choix personnels comme professionnels.
+          <p>
+            <!-- Penser à rajouter un truc sympa, c'est un peu brut de décoffrage cette phrase x) -->
+        </footer>
+      </section>
+
+      <section id="ce_que_j_aime_faire">
+        <h1> Ce que j'aime faire </h1>
+        <section>
+          <h2> Analyser </h2>
+          <p>et concilier votre besoin, vos contraintes et le comportement de vos utilisateurs.</p>
+        </section>
+        <section>
+          <h2> Concevoir </h2>
+          <p>des solutions utiles et utilisables pour qu'elles soient utilisées.</p>
+        </section>
+        <section>
+          <h2> Améliorer </h2>
+          <p> progressivement un produit par itérations pour lui apporter de la valeur.</p>
+        </section>
+        <section>
+          <h2> Collaborer </h2>
+          <p> avec des personnes fiables et inspirantes.</p>
+        </section>
+
+        <footer>
+          <p>
+            Si vous voulez en savoir plus, vous pouvez retrouver l’ensemble de mes aspirations dans <a  class="lien_inline" href="manifeste.shtml">mon manifeste.</a>
+          </p>
+          <a class="lien_button primary_button" href="manifeste.shtml">
+            Lire mon manifeste
+          </a>
+      </section>
+
+      <section id="wishlist">
+        <h1> Ma wishlist </h1>
+        <p>J'aime collaborer aux projets qui portent des valeurs telles que:</p>
+        <ul>
+          <li>Accessibilité</li>
+          <li>Open Source</li>
+          <li>Bienveillance</li>
+          <li>Inclusivité</li>
+          <li>Éthique</li>
+        </ul>
+        <p>Ou encore ceux qui mettent en avant ces thématiques:</p>
+        <ul>
+          <li>Environnement</li>
+          <li>Enfance</li>
+          <li>Éducation</li>
+          <li>Solidarité</li>
+          <li>Engagement citoyen</li>
+          <li>Service Public</li>
+        </ul>
+        <footer>
+          Si c'est votre cas, nous avons des choses à faire ensemble !
+        </footer>
+      </section>
+
+      <section>
+        <h1>Envie d'en discuter ?</h1>
+        <span> Rencontrons-nous… </span>
+        <div class="cote_cote">
+          <a class="lien_button primary_button" href="me_contacter.shtml"> Dans un café ! </a>
+          <a class="lien_button secondary_button" href="me_contacter.shtml"> Plutôt dans un parc…</a>
+        </div>
+      </section>
+
+    </main>
+
+    <!--#include file="footer.shtml" -->
+
+
+  </body>
+</html>
+
+<!-- Remplacer les <img> par des <svg> mais que devient l'attribut alt ? -->
