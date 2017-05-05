@@ -34,6 +34,7 @@ $darkGrey: #333333;
 
 $yellow: #FFAB1D;
 $darkYellow: #EF9600;
+$cream: #FFF3DD;
 
 $brown: #AB3B16;
 
@@ -145,20 +146,29 @@ em {
   font-weight: $semiBold;
   font-size: 1.2em;
   text-align: center;
-  color: black;
+  color: $black;
 
   border-radius: 2em;
 }
 
 .primary_button {
-  background-color: #FFAB1D;
+  background-color: $yellow;
   border: 0px;
 	padding: 0.9em 2em 0.8em;
 }
 
+.primary_button:hover {
+  background-color: $darkYellow;
+}
+
 .secondary_button {
-  border: 2px solid #FFAB1D;
+  border: 2px solid $yellow;
 	padding: 0.8em 2em;
+}
+
+.secondary_button:hover {
+  border: 2px solid $darkYellow;
+	background-color: $cream;
 }
 
 .cote_cote {
@@ -180,7 +190,7 @@ em {
 }
 
 #main_header_wrapper {
-	background-color: #FFAB1D;
+	background-color: $yellow;
 }
 
 #main_header button {
@@ -236,11 +246,11 @@ em {
 	padding: 1em 1em 2em;
 	max-width: 50em;
 
-  color: white;
+  color: $white;
 }
 
 #main_footer_wrapper {
-  background-color: #AB3B16;
+  background-color: $brown;
 }
 
 #main_footer > h1 {
@@ -478,8 +488,6 @@ em {
 }
 
 #passions article a:hover {
-
-	/*color: #EB9400;*/
 	margin-bottom: calc(1em - 2px);
 
 	border-bottom: 2px solid #FFAB1D;

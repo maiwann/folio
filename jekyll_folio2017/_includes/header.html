@@ -18,28 +18,14 @@
         </button>
         <nav>
           <ul>
-            {% for page in site.html_pages %}
-            <li>
-              <a href="{{ page.url | prepend: site.baseurl }}">
-                {{ page.title }}
-              </a>
-            </li>
-            {% endfor %}
-            <!-- <li>
-              <a href="qui_suis_je.shtml">
-                Qui suis-je ?
-              </a>
-            </li>
-            <li>
-              <a href="ce_que_je_fais.shtml">
-                Ce que je fais
-              </a>
-            </li>
-            <li>
-              <a href="me_contacter.shtml">
-                Me contacter
-              </a>
-            </li> -->
+            {% assign sorted_pages = site.pages | sort:"order" %}
+              {% for page in sorted_pages %}
+              <li>
+                <a href="{{page.url}}">
+                  {{page.title}}
+                </a>
+              </li>
+              {% endfor %}
           </ul>
         </nav>
       </div>
