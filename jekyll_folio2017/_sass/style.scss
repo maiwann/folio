@@ -26,12 +26,25 @@ $regular: 400;
 $semiBold: 600;
 $bold: 800;
 
+/*Colors*/
+
+$white: #ffffff;
+$black: #000000;
+$darkGrey: #333333;
+
+$yellow: #FFAB1D;
+$darkYellow: #EF9600;
+
+$brown: #AB3B16;
+
+
+
 
 
 @font-face {
 	font-family: "Open Sans";
 	font-weight: $semiBold;
-	src: url('font/open_sans/OpenSans-SemiBold.ttf');
+	src: url('../font/open_sans/OpenSans-SemiBold.ttf');
 }
 
 // Ajouter les différentes polices nécéssaires http://css.mammouthland.net/css3/font-face.php
@@ -39,19 +52,19 @@ $bold: 800;
 @font-face {
 	font-family: "Open Sans";
 	font-weight: $bold;
-	src: url('font/open_sans/OpenSans-Bold.ttf');
+	src: url('../font/open_sans/OpenSans-Bold.ttf');
 }
 
 @font-face {
 	font-family: "Open Sans";
 	font-weight: $light;
-	src: url('font/open_sans/OpenSans-Light.ttf');
+	src: url('../font/open_sans/OpenSans-Light.ttf');
 }
 
 @font-face {
 	font-family: "Open Sans";
   font-weight: $regular;
-	src: url('font/open_sans/OpenSans-Regular.ttf');
+	src: url('../font/open_sans/OpenSans-Regular.ttf');
 }
 
 /*Mettre la font en local*/
@@ -60,6 +73,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: $regular;
   line-height: 1.4;
+  font-size: 18px;
 }
 
 main {
@@ -172,11 +186,11 @@ em {
 #main_header button {
   margin: auto 2em;
   height: 3em;
-	/*display: none;*/
+	display: none;
 }
 
 #main_header nav {
-  display: none;
+  // display: none;
 }
 
 #main_header ul {
@@ -274,9 +288,21 @@ em {
 
 #main_footer li {
   margin: 3em 0;
-  display: flex;
-  align-items: center;
 }
+
+#main_footer li a {
+	display: flex;
+	align-items: center;
+}
+
+#main_footer a:hover span {
+	border-bottom: 2px solid $yellow;
+	margin-bottom: -2px;
+}
+
+#main_footer li a:hover img {
+}
+//mettre image jaune à la place
 
 #main_footer li span {
   margin-left: 0.5em;
@@ -641,6 +667,8 @@ em {
 /*Faire les survols:
 Des liens (border jaune)
 Des images (border jaune aussi ?)
+Des boutons
+avec animation ?
 
 Augmenter la différence entre les titres
 

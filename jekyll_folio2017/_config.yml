@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Portfolio de Maïtané Lenoir alias Maiwann
+title: Miaou Folio
 email: maitane.lenoir@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
     Maiwann - UX & Webdesign
@@ -25,7 +25,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.maiwann.net" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: maiwann_
 github_username:  none
-mastodon_username:  maiwann@witches.town
+mastodon_username: maiwann
+mastodon_instance: witches.town
 
 # Build settings
 markdown: kramdown

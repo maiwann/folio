@@ -15,22 +15,22 @@
             <h1>Retrouvez-moi via :</h1>
             <ul>
               <li>
-                <a href="mailto:maitane.lenoir@gmail.com">
+                <a href="mailto:{{ site.email }}">
                   <img src="img/icone_mail_footer.svg" alt="Icône mail">
+                  <span> {{ site.email }} </span>
                 </a>
-                <span> maitane.lenoir@gmail.com </span>
               </li>
               <li>
-                <a href="https://www.twitter.com/maiwann_">
+                <a href="https://www.twitter.com/{{ site.twitter_username }}">
                   <img src="img/icone_twitter_footer.svg" alt="Icône Twitter">
+                  <span> @{{ site.twitter_username }} </span>
                 </a>
-                <span> @maiwann_ </span>
               </li>
               <li>
-                <a href="https://mastodon.social/@maiwann">
+                <a href="https://{{ site.mastodon_instance }}/@{{ site.mastodon_username }}">
                   <img src="img/icone_mastodon_footer.svg" alt="Icône Mastodon">
+                  <span> @{{ site.mastodon_username }}@{{ site.mastodon_instance }} </span>
                 </a>
-                <span> @maiwann@mastodon.social </span>
               </li>
             </ul>
           </section>
@@ -55,7 +55,7 @@
         </div>
       </div>
     </footer>
-    
+
   </body>
 </html>
 

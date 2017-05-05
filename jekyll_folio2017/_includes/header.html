@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
 
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-
-  </head>
   <body>
 
     <header id="main_header_wrapper">
@@ -27,12 +18,14 @@
         </button>
         <nav>
           <ul>
+            {% for page in site.html_pages %}
             <li>
-              <a href="index.shtml">
-                Accueil
+              <a href="{{ page.url | prepend: site.baseurl }}">
+                {{ page.title }}
               </a>
             </li>
-            <li>
+            {% endfor %}
+            <!-- <li>
               <a href="qui_suis_je.shtml">
                 Qui suis-je ?
               </a>
@@ -46,7 +39,7 @@
               <a href="me_contacter.shtml">
                 Me contacter
               </a>
-            </li>
+            </li> -->
           </ul>
         </nav>
       </div>
