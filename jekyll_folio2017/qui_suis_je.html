@@ -74,6 +74,17 @@ order: 2
         </section>
         <section id="rencontres">
           <h1>Rencontrer des gens et échanger autour de mon métier (et pas que)</h1>
+          {% for annee in site.rencontres reversed %}
+          <h2>{{annee.title}}</h2>
+          <ul>
+            {% for rencontre in annee.rencontres %}
+            <li>
+                {{rencontre.title}}
+            </li>
+            {% endfor %}
+          </ul>
+          {% endfor %}
+
           <h2>2017</h2>
           <ul>
             <li>

@@ -128,6 +128,11 @@ em {
   font-weight: $bold;
 }
 
+form button {
+  font-family: "Open Sans", sans-serif;
+}
+
+
 
 .lien_inline {
   border-bottom: 1px solid black;
@@ -191,6 +196,10 @@ em {
 
 #main_header_wrapper {
 	background-color: $yellow;
+}
+
+#main_header h1 {
+	margin: 0.5em 0 0.2em;
 }
 
 #main_header button {
