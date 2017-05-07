@@ -74,20 +74,24 @@ order: 2
         </section>
         <section id="rencontres">
           <h1>Rencontrer des gens et échanger autour de mon métier (et pas que)</h1>
+
           {% for annee in site.rencontres reversed %}
           <h2>{{annee.title}}</h2>
           <ul>
             {% for rencontre in annee.rencontres %}
             <li>
-                {{rencontre.title}}
+
+                <a href="{{rencontre.url}}">
+                  <img src="{{rencontre.image}}" alt="Logo de {{rencontre.alternative}}">
+                </a>
             </li>
             {% endfor %}
           </ul>
           {% endfor %}
 
-          <h2>2017</h2>
-          <ul>
-            <li>
+          <!-- <h2>2017</h2>
+          <ul> -->
+            <!-- <li>
               <a href="http://sudweb.fr/">
                 <img src="img/conferences/sudweb2016.png" alt="Logo de Sud Web 2017">
               </a>
@@ -96,57 +100,57 @@ order: 2
               <a href="https://nvite.com/aperoweb/1r1r4m">
                 <img src="img/conferences/aperoweb.png" alt="Logo des aperoweb toulousains">
               </a>
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
               <a href="https://www.meetup.com/fr-FR/FLUPA-Toulouse/">
                 <img src="img/conferences/meetup_flupa.png"     alt="Logo des meetup FLUPA">
               </a>
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
               <a href="http://walkingdev.fr/">
                 <img src="img/conferences/walking_dev.png" alt="Logo des walkingdev">
               </a>
-            </li>
-          </ul>
+            </li> -->
+          <!-- </ul> -->
           <!-- Ajouter des liens vers les confs ? -->
-          <h2>2016</h2>
-          <ul>
-            <li>
+          <!-- <h2>2016</h2>
+          <ul> -->
+            <!-- <li>
               <a href="http://sudweb.fr/">
                 <img src="img/conferences/sudweb2016.png" alt="Logo de Sud Web 2016">
               </a>
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
               <a href="http://2016.kiwiparty.fr/">
                 <img src="img/conferences/kiwiparty.png" alt="Logo de Kiwi Party 2016">
               </a>
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
               <a href="http://uxday2016.flupa.eu/">
                 <img src="img/conferences/uxdays.jpg" alt="Logo des FLUPA UX Days">
               </a>
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
               <a href="https://www.paris-web.fr/2016/">
                 <img src="img/conferences/parisweb.png" alt="Logo de ParisWeb 2016">
               </a>
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
               <a href="http://devopensud.fr/">
                 <img src="img/conferences/devopensud.svg" alt="Logo de DevOpenSud">
               </a>
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
               <a href="http://www.tedxtoulouse.com/">
                 <img src="img/conferences/tedx_toulouse.png" alt="Logo des TedXToulouse">
               </a>
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
               <a href="https://nvite.com/aperoweb/1r1r4m">
                 <img src="img/conferences/aperoweb.png" alt="Logo des aperoweb toulousains">
               </a>
-            </li>
-          </ul>
+            </li> -->
+          <!-- </ul>
           <h2>2015</h2>
           <ul>
             <li>
@@ -164,7 +168,7 @@ order: 2
                 <img src="img/conferences/parisweb.png" alt="Logo de ParisWeb 2015">
               </a>
             </li>
-          </ul>
+          </ul> -->
         </section>
         <section id="hobbies">
           <h1>Et aussi…</h1>
