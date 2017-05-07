@@ -40,3 +40,4 @@ exclude:
 # Collections
 collections:
  - rencontres
+ - projets

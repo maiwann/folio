@@ -25,13 +25,23 @@ order: 3
           </p>
         </header>
         <ul class="liste_projets">
-          <li class="vignette_projet">
-            <img src="img/vignette/projets/lexigone.jpg" alt="vignette du projet Lexigone">
-            <h1>Lexigone</h1>
-            <h3>UX Design · Expérience Map</h3>
-            <h2>Comment se déroule le processus de gestion d'un contrat ?</h2>
-          </li>
+          BOUH
+          {% for projet in site.projets %}
+          BOUH2
+          <a href="{{ projet.url }}">
+            <li class="vignette_projet">
+              <img src="{{ projet.vignette_url }}" alt="vignette du projet {{ projet.title }}">
+              <h1>{{ projet.title }}</h1>
+              <h3>{{ projet.competences }}</h3>
+              <h2>{{ projet.problematique }}</h2>
+            </li>
+          </a>
+          {% endfor %}
+          BAH
         </ul>
+
+
+
       </section>
       <section>
         <header>
