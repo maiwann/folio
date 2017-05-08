@@ -8,19 +8,22 @@
 
 <header id="main_header_wrapper">
   <div id="main_header">
-    <a href="http://www.maiwann.net">
-      <h1>
-      <!-- Est-ce qu'il faut un attribut title ? -->
-      <!-- Ajouter qqchose du genre: <span class="visually-hidden"> Maïtané Lenoir - Portfolio </span> cc Folio Stéphanie Walter ?  -->
-      <img src="img/logo.svg" alt="Maiwann">
-      <!-- Remplacer par un svg -->
-      </h1>
-    </a>
+    <div id="subheader">
+      <a href="http://www.maiwann.net">
+        <h1>
+        <!-- Est-ce qu'il faut un attribut title ? -->
+        <!-- Ajouter qqchose du genre: <span class="visually-hidden"> Maïtané Lenoir - Portfolio </span> cc Folio Stéphanie Walter ?  -->
+        <img src="img/logo.svg" alt="Maiwann">
+        <!-- Remplacer par un svg -->
+        </h1>
+      </a>
 
-    <button name="nav_mobile" type="button">
-      Menu
-      <!-- Ajouter un bouton hamburger ou un contour au mot Menu -->
-    </button>
+      <button name="nav_mobile" id="nav_mobile" type="button">
+        Menu
+        <!-- Ajouter un bouton hamburger ou un contour au mot Menu -->
+      </button>
+  </div>
+
     <nav>
       <ul>
         <li>
