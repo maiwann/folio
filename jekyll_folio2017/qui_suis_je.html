@@ -37,39 +37,32 @@ order: 2
         <section>
           <h1>Écrire pour partager ma vision et mes connaissances</h1>
           <ul class="liste_projets">
-            <li class="vignette_projet">
-              <article>
-                <img src="img/vignette/article/design_emotionnel.jpg">
-                <h1>
-                  <a href="https://perspectives.design/emotion-et-design-le-couple-ideal/">
-                  Émotion et Design, le couple idéal
+            {% for post in site.posts limit:2 %}
+              <li class="vignette_projet">
+                <article>
+                  <img src="{{ post.vignette }}">
+                  <h1>
+                    <a href="{% if post.redirection %}
+                                {{post.redirection}}
+                              {% else %}
+                                {{post.url}}
+                            {% endif %}">
+                    {{ post.title }}
+                    </a>
+                  </h1>
+                  <p>
+                    {{ post.intro }}
+                  </p>
+                  <a href="{% if post.redirection %}
+                              {{post.redirection}}
+                            {% else %}
+                              {{post.url}}
+                          {% endif %}">
+                    Lire la suite sur {{ post.nom_blog }} ➞
                   </a>
-                </h1>
-                <p>
-                  Le Design émotionnel est le petit plus qui nous fait passer du statut de consommateurs à celui d’amoureux d’une marque. Il est mis en place chez...
-                </p>
-                <a href="https://perspectives.design/emotion-et-design-le-couple-ideal/">
-                  Lire la suite sur Perspectives ➞
-                </a>
-                <!-- Mettre ➞ en :after ? -->
-              </article>
-            </li>
-            <li class="vignette_projet">
-              <article>
-                <img src="img/vignette/article/recette_webdesign.jpg">
-                <h1>
-                  <a href="http://www.24joursdeweb.fr/2015/ma-recette-pour-un-webdesign-reussi/">
-                  Ma recette pour un webdesign réussi
-                  </a>
-                </h1>
-                <p>
-                  Envisager les webdesigners comme des artistes est un quiproquo récurrent dans le milieu du web. Je ne compte plus le nombre...
-                </p>
-                <a href="http://www.24joursdeweb.fr/2015/ma-recette-pour-un-webdesign-reussi/">
-                  Lire la suite sur 24 jours de web ➞
-                </a>
-              </article>
-            </li>
+                </article>
+              </li>
+            {% endfor %}
           </ul>
         </section>
         <section id="rencontres">
@@ -87,87 +80,6 @@ order: 2
             {% endfor %}
           </ul>
           {% endfor %}
-
-          <!-- <h2>2017</h2>
-          <ul> -->
-            <!-- <li>
-              <a href="http://sudweb.fr/">
-                <img src="img/conferences/sudweb2016.png" alt="Logo de Sud Web 2017">
-              </a>
-            </li>
-            <li>
-              <a href="https://nvite.com/aperoweb/1r1r4m">
-                <img src="img/conferences/aperoweb.png" alt="Logo des aperoweb toulousains">
-              </a>
-            </li> -->
-            <!-- <li>
-              <a href="https://www.meetup.com/fr-FR/FLUPA-Toulouse/">
-                <img src="img/conferences/meetup_flupa.png"     alt="Logo des meetup FLUPA">
-              </a>
-            </li> -->
-            <!-- <li>
-              <a href="http://walkingdev.fr/">
-                <img src="img/conferences/walking_dev.png" alt="Logo des walkingdev">
-              </a>
-            </li> -->
-          <!-- </ul> -->
-          <!-- Ajouter des liens vers les confs ? -->
-          <!-- <h2>2016</h2>
-          <ul> -->
-            <!-- <li>
-              <a href="http://sudweb.fr/">
-                <img src="img/conferences/sudweb2016.png" alt="Logo de Sud Web 2016">
-              </a>
-            </li> -->
-            <!-- <li>
-              <a href="http://2016.kiwiparty.fr/">
-                <img src="img/conferences/kiwiparty.png" alt="Logo de Kiwi Party 2016">
-              </a>
-            </li> -->
-            <!-- <li>
-              <a href="http://uxday2016.flupa.eu/">
-                <img src="img/conferences/uxdays.jpg" alt="Logo des FLUPA UX Days">
-              </a>
-            </li> -->
-            <!-- <li>
-              <a href="https://www.paris-web.fr/2016/">
-                <img src="img/conferences/parisweb.png" alt="Logo de ParisWeb 2016">
-              </a>
-            </li> -->
-            <!-- <li>
-              <a href="http://devopensud.fr/">
-                <img src="img/conferences/devopensud.svg" alt="Logo de DevOpenSud">
-              </a>
-            </li> -->
-            <!-- <li>
-              <a href="http://www.tedxtoulouse.com/">
-                <img src="img/conferences/tedx_toulouse.png" alt="Logo des TedXToulouse">
-              </a>
-            </li> -->
-            <!-- <li>
-              <a href="https://nvite.com/aperoweb/1r1r4m">
-                <img src="img/conferences/aperoweb.png" alt="Logo des aperoweb toulousains">
-              </a>
-            </li> -->
-          <!-- </ul>
-          <h2>2015</h2>
-          <ul>
-            <li>
-              <a href="http://sudweb.fr/">
-                <img src="img/conferences/sudweb2015.png" alt="Logo de Sud Web 2015">
-              </a>
-            </li>
-            <li>
-              <a href="http://2015.kiwiparty.fr/">
-                <img src="img/conferences/kiwiparty.png" alt="Logo de Kiwi Party 2016">
-              </a>
-            </li>
-            <li>
-              <a href="https://www.paris-web.fr/2015/">
-                <img src="img/conferences/parisweb.png" alt="Logo de ParisWeb 2015">
-              </a>
-            </li>
-          </ul> -->
         </section>
         <section id="hobbies">
           <h1>Et aussi…</h1>
