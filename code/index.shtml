@@ -89,8 +89,8 @@
         <h1>Envie d'en discuter ?</h1>
         <span> Rencontrons-nous… </span>
         <div class="cote_cote">
-          <a class="lien_button primary_button" href="me_contacter.shtml"> Dans un café ! </a>
-          <a class="lien_button secondary_button" href="me_contacter.shtml"> Plutôt dans un parc…</a>
+          <a class="lien_button primary_button" href="{{ site.baseurl }}/me_contacter.html"> Dans un café ! </a>
+          <a class="lien_button secondary_button" href="{{ site.baseurl }}/me_contacter.html"> Plutôt dans un parc…</a>
         </div>
       </section>
 

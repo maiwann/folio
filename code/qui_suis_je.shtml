@@ -30,8 +30,8 @@
         <h1>Envie de discuter ?</h1>
         <span>Et si on prenait un chocolat ?</span>
         <div class="cote_cote">
-          <a class="lien_button primary_button" href="me_contacter.shtml">Avec plaisir !</a>
-          <a class="lien_button secondary_button" href="me_contacter.shtml">Un café plutôt…</a>
+          <a class="lien_button primary_button" href="{{ site.baseurl }}/me_contacter.html">Avec plaisir !</a>
+          <a class="lien_button secondary_button" href="{{ site.baseurl }}/me_contacter.html">Un café plutôt…</a>
         </div>
       </section>
       <section id="passions">

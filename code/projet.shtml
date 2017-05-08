@@ -45,7 +45,7 @@
       </section>
       <a class="lien_button primary_button" href="#"> Voir le site </a>
 
-      <a class="lien_inline" href="ce_que_je_fais.shtml">
+      <a class="lien_inline" href="{{ site.baseurl }}/ce_que_je_fais.html">
         ← Revenir à la page précédente
       </a>
     </main>

@@ -24,22 +24,22 @@
     <nav>
       <ul>
         <li>
-          <a href="index.shtml">
+          <a href="{{ site.baseurl }}/index.html">
             Accueil
           </a>
         </li>
         <li>
-          <a href="qui_suis_je.shtml">
+          <a href="{{ site.baseurl }}/qui_suis_je.html">
             Qui suis-je ?
           </a>
         </li>
         <li>
-          <a href="ce_que_je_fais.shtml">
+          <a href="{{ site.baseurl }}/ce_que_je_fais.html">
             Ce que je fais
           </a>
         </li>
         <li>
-          <a href="me_contacter.shtml">
+          <a href="{{ site.baseurl }}/me_contacter.html">
             Me contacter
           </a>
         </li>

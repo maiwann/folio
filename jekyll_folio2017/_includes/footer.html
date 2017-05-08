@@ -36,11 +36,18 @@
           </section>
           <section id="dernier_article">
             <h1> Mon dernier article: </h1>
-            <p>
-              <a href="https://perspectives.design/emotion-et-design-le-couple-ideal/">
-                <span>Émotion et Design, le couple idéal</span> — à lire sur Perspectives
-              </a>
-            </p>
+            {% for post in site.posts limit:1 %}
+              <p>
+                <a href="{% if post.redirection %}
+                            {{post.redirection}}
+                          {% else %}
+                            {{post.url}}
+                        {% endif %}">
+                        <span>{{post.title}}</span>
+                </a> — à lire sur {{ post.nom_blog }}
+
+              </p>
+            {% endfor %}
           </section>
           <section>
             <a href="https://matias.ma/nsfw/" class="lien_button primary_button">

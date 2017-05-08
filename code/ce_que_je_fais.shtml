@@ -12,7 +12,7 @@
           De sites internets publics aux applications métiers, en passant par la réalisation d’IHM ou d’applications mobiles, je suis disponible pour vous guider dans le processus de recherche, conception et réalisation de votre interface.
         </p>
         <p>
-          Si vous avez des questions, n’hésitez pas à <a class="lien_inline" href="me_contacter.shtml">me contacter</a> pour que nous en discutions.
+          Si vous avez des questions, n’hésitez pas à <a class="lien_inline" href="{{ site.baseurl }}/me_contacter.html">me contacter</a> pour que nous en discutions.
         </p>
         <p>
           NB: Certaines de mes réalisations sont soumises à confidentialité et ne peuvent être diffusées en ligne.
