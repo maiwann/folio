@@ -13,7 +13,14 @@ layout: default
       <section>
         {{ content }}
       </section>
-      <a class="lien_button primary_button" href="#"> Super </a>
+
+
+      {% if page.bouton %}
+        <a class="lien_button primary_button" href="{{ page.bouton }}">
+          Voir le site
+        </a>
+      {% endif %}
+
 
       <a class="lien_inline" href="ce_que_je_fais.shtml">
         ← Retour

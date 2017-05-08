@@ -43,3 +43,7 @@ collections:
     output: false
   projets:
     output: true
+
+projets-order:
+  - UX
+  - UI

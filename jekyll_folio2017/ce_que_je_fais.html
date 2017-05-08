@@ -25,7 +25,8 @@ order: 3
           </p>
         </header>
         <ul class="liste_projets">
-          {% for projet in site.projets %}
+          {% assign projets_ux = site.projets | where: "categories", "ux" %}
+          {% for projet in projets_ux %}
           <a href="{{ projet.url }}">
             <li class="vignette_projet">
               <img src="{{ projet.vignette_url }}" alt="vignette du projet {{ projet.title }}">
@@ -35,7 +36,6 @@ order: 3
             </li>
           </a>
           {% endfor %}
-          BAH
         </ul>
 
 
@@ -49,18 +49,17 @@ order: 3
           </p>
         </header>
         <ul class="liste_projets">
-          <li class="vignette_projet">
-            <img src="img/vignette/projets/condor.jpg" alt="vignette du projet Condor">
-            <h1>Condor</h1>
-            <h3>UI Design · Refonte Responsive</h3>
-            <h2>Adapter la version mobile d'une application métier</h2>
-          </li>
-          <li class="vignette_projet">
-            <img src="img/vignette/projets/sesameEmploi.jpg"  alt="vignette du projet Sésame Emploi">
-            <h1>Sésame Emploi</h1>
-            <h3>UI Design · Refonte Responsive</h3>
-            <h2>Proposer une meilleure ergonomie lors du passage en responsive</h2>
-          </li>
+          {% assign projets_ui = site.projets | where: "categories", "ui" %}
+          {% for projet in projets_ui %}
+          <a href="{{ projet.url }}">
+            <li class="vignette_projet">
+              <img src="{{ projet.vignette_url }}" alt="vignette du projet {{ projet.title }}">
+              <h1>{{ projet.title }}</h1>
+              <h3>{{ projet.competences }}</h3>
+              <h2>{{ projet.problematique }}</h2>
+            </li>
+          </a>
+          {% endfor %}
         </ul>
       </section>
       <section>
@@ -88,13 +87,18 @@ order: 3
       </section>
       <section>
         <h1>Mais encore…</h1>
-        <ul>
-          <li class="vignette_projet">
-            <img src="img/vignette/projets/lexigone.jpg" alt="vignette du projet dico digital">
-            <h1>Dico Digital</h1>
-            <h3>Wireframe & Maquette Responsive</h3>
-            <h2>Dictionnaire pour ceux qui disent digital au lieu de numérique</h2>
-          </li>
+        <ul class="liste_projets">
+          {% assign projets_side = site.projets | where: "categories", "side" %}
+          {% for projet in projets_side %}
+          <a href="{{ projet.url }}">
+            <li class="vignette_projet">
+              <img src="{{ projet.vignette_url }}" alt="vignette du projet {{ projet.title }}">
+              <h1>{{ projet.title }}</h1>
+              <h3>{{ projet.competences }}</h3>
+              <h2>{{ projet.problematique }}</h2>
+            </li>
+          </a>
+          {% endfor %}
         </ul>
       </section>
     </main>
