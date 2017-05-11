@@ -602,9 +602,14 @@ button {
 
 .vignette_projet h1 {
   margin: 1em auto;
+	width: 100%;
 
   font-weight: $semiBold;
   font-size: 1.2em;
+}
+
+.vignette_projet a:hover {
+  border-bottom: 2px solid $yellow;
 }
 
 .vignette_projet h2,
