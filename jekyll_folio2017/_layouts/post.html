@@ -1,25 +1,25 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        {{ page.date | date: date_format }}
-      </time>
-      {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-      {% endif %}</p>
-  </header>
+      <main id="main_article">
+        <article>
+          <header>
+            <h1> {{ page.title }} </h1>
+            <h2> {{ page.subtitle}} </h2>
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+            <p> {{ page.intro }} </p>
+          </header>
+          <section>
+            {{ content }}
+          </section>
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            ~ griffonné le <span>{% include fr_date.html date=page.date %}</span>
+          </time>
+        </article>
 
-  {% if site.disqus.shortname %}
-    {% include disqus_comments.html %}
-  {% endif %}
-</article>
+
+        <a class="lien_inline" href="{{ site.baseurl }}/ce_que_je_fais.html">
+          ← Retour à la page précédente
+        </a>
+      </main>

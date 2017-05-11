@@ -77,7 +77,8 @@ main {
 	color: $black;
 }
 
-main > header > h1 {
+main > header > h1,
+#main_article > article > header > h1 {
   margin-bottom: 0.5em;
 
   font-family: "Dancing Script", cursive;
@@ -724,6 +725,49 @@ button {
 #reseaux_sociaux ul span {
   margin: 0 0.5em;
 
+  font-weight: $semiBold;
+}
+
+
+
+/* Article */
+
+#main_article > article > header > h2 {
+ text-align: center;
+}
+
+#main_article h2 {
+  margin: 1em auto 0;
+
+  font-weight: $semiBold;
+}
+
+#main_article header p {
+  margin: 2em 3em 0;
+	font-style: italic;
+}
+
+#main_article section {
+  margin-top: 3em;
+}
+
+#main_article article {
+  margin-bottom: 2em;
+}
+
+#main_article p {
+  margin: 2em auto;
+}
+
+#main_article section > h1 {
+  margin-top: 3em;
+}
+
+#main_article time {
+  font-size: 0.8em;
+}
+
+#main_article time span {
   font-weight: $semiBold;
 }
 
