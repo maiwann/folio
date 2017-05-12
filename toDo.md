@@ -36,7 +36,7 @@
 - Faire une partie Blog
 
 
-- Peut-être changer UX & Webdesign en UX·UI Design
+X  - Peut-être changer UX & Webdesign en UX·UI Design
 
 - Ajouter un petit quelquechose sous mes valeurs car ça fait trop grrrr
 
@@ -46,14 +46,17 @@
 
 - Animer les barres de UX & Webdesign
 
-- Mettre les liens en gras
+X  - Mettre les liens en gras
 
-- Agrandir logo header
-
+- Modifier le style des h2 pour les rendre plus distinguables
 
 - Faire une partie Veille
 
 - Tester sur différents navigateurs
+
+- Avoir une favicon
+
+- Survol des liens avec box shadow ? box-shadow: 0 1px 0px 0px $yellow;
 
 
 ## Après la mise en ligne

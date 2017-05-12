@@ -415,6 +415,14 @@ button {
 	text-align: center;
 }
 
+#index_header span {
+	display: inline-block;
+	margin: 0 0.2em;
+
+	font-family: "Dancing Script", cursive;
+	font-weight: $bold;
+}
+
 #index_header h2:before,
 #index_header h2:after {
   content: "";
