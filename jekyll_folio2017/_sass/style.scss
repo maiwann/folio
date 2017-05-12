@@ -132,6 +132,7 @@ button {
 
 
 .lien_inline {
+	font-weight: $semiBold;
   border-bottom: 2px solid $darkGrey;
 }
 
@@ -201,10 +202,6 @@ button {
 
 #main_header_wrapper {
 	background-color: $yellow;
-}
-
-#main_header h1 {
-	margin: 0.5em 0 0.2em;
 }
 
 #main_header button {
@@ -615,7 +612,6 @@ button {
 .vignette_projet h2,
 .vignette_projet h3 {
   margin: 1em auto;
-	padding: 0 0.5em;
 }
 
 .vignette_sketchnote {
