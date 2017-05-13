@@ -37,9 +37,15 @@ order: 2
             {% for post in site.posts limit:2 %}
               <li class="vignette_projet">
                 <article>
-                  <figure>
-                    <img src="{{ post.vignette }}">
-                  </figure>
+                  <a href="{% if post.redirection %}
+                              {{post.redirection}}
+                            {% else %}
+                              {{post.url}}
+                          {% endif %}">
+                    <figure>
+                      <img src="{{ post.vignette_url }}" alt="{{ post.alt_vignette }}">
+                    </figure>
+                  </a>
                   <h1>
                     <a href="{% if post.redirection %}
                                 {{post.redirection}}
