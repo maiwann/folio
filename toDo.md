@@ -33,24 +33,17 @@ X - Survol des vignettes à améliorer
   -  peut-être triche avec les dates ?
 
 
-- Faire une partie Blog
-
 
 X  - Peut-être changer UX & Webdesign en UX·UI Design
 
 X - Ajouter un petit quelquechose sous mes valeurs car ça fait trop grrrr
 
-- Avoir des tags dans les articles
 
-- Animer le logo (s'écrit au fur et à mesure)
-
-- Animer les barres de UX & Webdesign
 
 X  - Mettre les liens en gras
 
 - Modifier le style des h2 pour les rendre plus distinguables
 
-- Faire une partie Veille
 
 - Tester sur différents navigateurs
 
@@ -60,3 +53,15 @@ X  - Survol des liens avec box shadow ? box-shadow: 0 1px 0px 0px $yellow;
 
 
 ## Après la mise en ligne
+
+- Animer les barres de UX & Webdesign
+
+- Animer le logo (s'écrit au fur et à mesure)
+
+
+
+- Faire une partie Blog
+
+- Faire une partie Veille
+
+- Avoir des tags dans les articles
