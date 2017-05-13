@@ -133,11 +133,11 @@ button {
 
 .lien_inline {
 	font-weight: $semiBold;
-  border-bottom: 2px solid $darkGrey;
+  box-shadow: 0 2px 0px 0px $darkGrey;
 }
 
 .lien_inline:hover {
-  border-bottom: 2px solid $yellow;
+  box-shadow: 0 2px 0px 0px $yellow;
 }
 
 .lien_button {
@@ -242,7 +242,7 @@ button {
 }
 
 #main_header nav a:hover {
-  border-bottom: 2px $darkGrey solid;
+  box-shadow: 0 2px 0px 0px $darkGrey;
 	margin-bottom: -2px;
 }
 
@@ -350,8 +350,7 @@ button {
 }
 
 #bottom_footer a:hover span {
-	border-bottom: 2px solid $yellow;
-	margin-bottom: -2px;
+	box-shadow: 0 2px 0px 0px $yellow;
 }
 
 #main_footer li a:hover img {
@@ -531,7 +530,7 @@ button {
 }
 
 #passions article a {
-  display: inline-block;
+
   margin: 1em 0;
   max-width: 100%;
 
@@ -540,17 +539,7 @@ button {
 }
 
 #passions article a:hover {
-	margin-bottom: calc(1em - 2px);
-
-	border-bottom: 2px solid #FFAB1D;
-}
-
-#passions article img:hover {
-	margin-top: -2px;
-	margin-bottom: -2px;
-
-	border-top: 2px solid #FFAB1D;
-	border-bottom: 2px solid #FFAB1D;
+	box-shadow: 0 2px 0px 0px $yellow;
 }
 
 /*Rencontres*/
@@ -605,6 +594,33 @@ button {
 	border-bottom: 2px solid #FFAB1D;
 }
 
+.vignette_projet figure {
+	background: $yellow;
+}
+
+.vignette_projet img {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+}
+
+.vignette_projet img:hover {
+	opacity: 0.8;
+}
+
+
+figure span::before {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+figure:hover span::before {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+
 .vignette_projet h1 {
   margin: 1em auto;
 	width: 100%;
@@ -614,7 +630,7 @@ button {
 }
 
 .vignette_projet a:hover {
-  border-bottom: 2px solid $yellow;
+  box-shadow: 0 2px 0px 0px $yellow;
 }
 
 .vignette_projet h2,

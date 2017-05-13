@@ -15,7 +15,7 @@
   - Si les vignettes ne font pas le bon format comment ça se passe ?
 
 
-- Survol des vignettes à améliorer
+X - Survol des vignettes à améliorer
 
 
 - Sketchnotes
@@ -38,7 +38,7 @@
 
 X  - Peut-être changer UX & Webdesign en UX·UI Design
 
-- Ajouter un petit quelquechose sous mes valeurs car ça fait trop grrrr
+X - Ajouter un petit quelquechose sous mes valeurs car ça fait trop grrrr
 
 - Avoir des tags dans les articles
 
@@ -56,7 +56,7 @@ X  - Mettre les liens en gras
 
 - Avoir une favicon
 
-- Survol des liens avec box shadow ? box-shadow: 0 1px 0px 0px $yellow;
+X  - Survol des liens avec box shadow ? box-shadow: 0 1px 0px 0px $yellow;
 
 
 ## Après la mise en ligne
