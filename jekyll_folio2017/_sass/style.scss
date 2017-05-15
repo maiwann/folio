@@ -60,7 +60,7 @@ $brown: #AB3B16;
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: $regular;
-  line-height: 1.4;
+  line-height: 1.6;
   font-size: 18px;
 	color: $darkGrey;
 }
@@ -68,7 +68,7 @@ body {
 main {
   margin: 2em auto;
 	padding: 0 1em;
-	max-width: 45em;
+	max-width: 55em;
 
 	background: #ffffff;
 }
@@ -688,6 +688,7 @@ figure:hover span::before {
 
 #main_projet figure {
   margin: 2em 0 4em;
+	text-align: center;
 }
 
 #main_projet figure img {
