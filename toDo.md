@@ -12,11 +12,12 @@
 
 - Vérifier format des vignettes
   - Quel format est le mieux ?
-  - Si les vignettes ne font pas le bon format comment ça se passe ?
+  - Si les vignettes ne font pas le bon format comment ça se passe ? > C'est OK pour la taille, à vérifier pour la pixellisation.
 
 
 X - Survol des vignettes à améliorer
 
+- Refaire les vignettes des projets
 
 - Sketchnotes
   - Prendre en photo
@@ -42,14 +43,22 @@ X - Ajouter un petit quelquechose sous mes valeurs car ça fait trop grrrr
 
 X  - Mettre les liens en gras
 
-- Modifier le style des h2 pour les rendre plus distinguables
-
+X  - Modifier le style des h2 pour les rendre plus distinguables
 
 - Tester sur différents navigateurs
 
-- Avoir une favicon
+X  - Avoir une favicon
 
 X  - Survol des liens avec box shadow ? box-shadow: 0 1px 0px 0px $yellow;
+
+- Favicon pas accessible depuis le spages projets è_é
+
+- Proposer un zoom sur les images des projets
+
+- Contenu:
+  - Diminuer les marges du body
+  - Ajouter du line-height
+  - Réduire la taille de la typo ? (un peu ?)
 
 
 ## Après la mise en ligne
