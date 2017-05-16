@@ -28,12 +28,15 @@ $brown: #AB3B16;
 
 
 
-
+@font-face {
+	font-family: "Dancing Script";
+	src: url('/font/dancing_script/DancingScript-Regular.ttf');
+}
 
 @font-face {
 	font-family: "Open Sans";
 	font-weight: $semiBold;
-	src: url('../font/open_sans/OpenSans-SemiBold.ttf');
+	src: url('/font/open_sans/OpenSans-SemiBold.ttf');
 }
 
 // Ajouter les différentes polices nécéssaires http://css.mammouthland.net/css3/font-face.php
@@ -41,19 +44,19 @@ $brown: #AB3B16;
 @font-face {
 	font-family: "Open Sans";
 	font-weight: $bold;
-	src: url('../font/open_sans/OpenSans-Bold.ttf');
+	src: url('/font/open_sans/OpenSans-Bold.ttf');
 }
 
 @font-face {
 	font-family: "Open Sans";
 	font-weight: $light;
-	src: url('../font/open_sans/OpenSans-Light.ttf');
+	src: url('/font/open_sans/OpenSans-Light.ttf');
 }
 
 @font-face {
 	font-family: "Open Sans";
   font-weight: $regular;
-	src: url('../font/open_sans/OpenSans-Regular.ttf');
+	src: url('/font/open_sans/OpenSans-Regular.ttf');
 }
 
 /*Mettre la font en local*/
