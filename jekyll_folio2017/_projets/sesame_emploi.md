@@ -2,7 +2,7 @@
 layout: projet
 title: Sésame Emploi
 vignette_url: /img/vignette/projets/sesameEmploi.jpg
-problematique: Proposer une meilleure ergonomie lors du passage en responsive
+problematique: Proposer une meilleure ergonomie lors du passage en responsive.
 competences: Refonte Responsive
 categories: ui
 bouton: null

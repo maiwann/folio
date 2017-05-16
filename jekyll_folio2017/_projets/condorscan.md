@@ -2,7 +2,7 @@
 layout: projet
 title: Condor Scan
 vignette_url: /img/vignette/projets/condor.jpg
-problematique: Adapter la version mobile d'une application métier
+problematique: Adapter la version mobile d'une application métier.
 competences: Mobile first · Refonte Responsive
 categories: ui
 bouton: null
