@@ -13,13 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Miaou Folio
+title: Portfolio de Maïtané Lenoir
 email: maitane.lenoir@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
     Maiwann - UX & Webdesign
 
     Concevoir pour tous afin de créer un monde éthique & inclusif où chacun puisse se sentir légitime.
-
     Découvrir, créer & partager accompagnée de personnes fiables et inspirantes, dans le respect de mes valeurs et toujours avec enthousiasme !
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.maiwann.net" # the base hostname & protocol for your site, e.g. http://example.com
