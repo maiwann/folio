@@ -82,24 +82,22 @@ order: 3
         <header>
           <h1>Sketchnote</h1>
           <p>
-            Les sketchnotes sont une prise de note sous forme graphique que j'apprécie pour mettre en forme visuellement mes idées. Je sketchnote conférences et moments de vie sans distinction.
+            Les sketchnotes sont une prise de note sous forme graphique que j'apprécie pour mettre en forme visuellement mes idées. Je sketchnote conférences et moments de vie sans distinctions.
           </p>
         </header>
         <ul class="liste_projets">
-          <li class="vignette_sketchnote">
-            <img src="img/vignette/projets/sketchnote1.jpg" alt="vignette du sketchnote Aperoweb Assistants vocaux">
-            <h1>Aperoweb Assistants vocaux</h1>
-          </li>
-          <li class="vignette_sketchnote">
-            <img src="img/vignette/projets/sketchnote2.jpg" alt="vignette du sketchnote MiamOpenSud 2017">
-            <h1>MiamOpenSud · 2017</h1>
-          </li>
-          <li class="vignette_sketchnote">
-            <img src="img/vignette/projets/sketchnote3.jpg" alt="vignette du sketchnote Moustic 2017">
-            <h1>Moustic 2017</h1>
-          </li>
+
+          {% for annee in site.sketchnotes %}
+            {% for sketchnote in annee.sketchnotes limit:3 %}
+              <li class="vignette_sketchnote">
+                <img src="{{sketchnote.vignette_url}}" alt="{{sketchnote.title}}">
+                <h1>{{sketchnote.title}}</h1>
+              </li>
+            {% endfor %}
+          {% endfor %}
         </ul>
-        <a class="lien_button primary_button" href="#site_sketchnote">En voir plus</a>
+
+        <a class="lien_button primary_button" href="/projets/sketchnote.html">Voir plus de sketchnotes</a>
       </section>
       <section>
         <h1>Mais encore…</h1>

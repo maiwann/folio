@@ -1,0 +1,24 @@
+---
+layout: projet
+title: Sketchnotes
+problematique: Un peu de prise de notes graphiques
+---
+
+{% for annee in site.sketchnotes %}
+<h1>{{annee.title}}</h1>
+<ul>
+  {% for sketchnote in annee.sketchnotes %}
+  <li>
+      <figure>
+        <img src="{{sketchnote.image}}" alt="Sketchnote: {{sketchnote.title}}">
+        <figcaption>{% if sketchnote.legende %}
+                    {{sketchnote.legende}}
+                  {% else %}
+                    {{sketchnote.title}}
+                {% endif %}</figcaption>
+      </figure>
+      <p>{{sketchnote.sous_titre}}</p>
+  </li>
+  {% endfor %}
+</ul>
+{% endfor %}

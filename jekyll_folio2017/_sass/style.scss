@@ -497,7 +497,7 @@ button {
 /*Passions*/
 
 #passions > section {
- margin-top: 4em;
+ margin-bottom: 4em;
 }
 
 #passions > section > h1 {
@@ -626,7 +626,7 @@ figure:hover span::before {
 
 
 .vignette_projet h1 {
-  margin: 1em auto;
+  margin: 0.5em auto;
 	width: 100%;
 
   font-weight: $semiBold;
@@ -639,11 +639,12 @@ figure:hover span::before {
 
 .vignette_projet h2,
 .vignette_projet h3 {
-  margin: 1em auto;
+  margin: 0.5em auto;
 }
 
 .vignette_sketchnote {
   padding: 2em 0;
+	max-width: 16em;
 }
 
 .vignette_sketchnote h1 {
