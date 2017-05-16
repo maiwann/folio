@@ -1,7 +1,7 @@
 ---
 layout: projet
 title: Lexigone
-vignette_url: img/vignette/projets/lexigone.jpg
+vignette_url: /img/vignette/projets/lexigone.jpg
 problematique: Comment se déroule le processus de gestion d'un contrat ?
 competences: Personae · Experience Map
 categories: ux
