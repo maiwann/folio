@@ -133,7 +133,16 @@ button {
 	cursor: pointer;
 }
 
+main ul {
+  list-style: disc;
+	margin-left: 1em;
 
+	width: 80%;
+}
+
+main ul li {
+	margin: 0.5em;
+}
 
 .lien_inline {
 	font-weight: $semiBold;
