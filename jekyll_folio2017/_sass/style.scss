@@ -96,7 +96,9 @@ footer > section {
 }
 
 main > section > h1,
-main > section > header > h1 {
+main > article > section > h1,
+main > section > header > h1
+ {
   margin-bottom: 2em;
 
   font-size: 1.2em;
@@ -144,12 +146,14 @@ main ul li {
 	margin: 0.5em;
 }
 
-.lien_inline {
+.lien_inline,
+#main_article a {
 	font-weight: $semiBold;
   box-shadow: 0 2px 0px 0px $darkGrey;
 }
 
-.lien_inline:hover {
+.lien_inline:hover,
+#main_article a:hover {
   box-shadow: 0 2px 0px 0px $yellow;
 }
 
@@ -232,6 +236,8 @@ main ul li {
   display: flex;
 	flex-direction: column;
 	align-items: center;
+
+	list-style: none;
 
 	height: 100%;
 }
@@ -478,8 +484,6 @@ main ul li {
   margin: 2em;
 
   font-weight: $semiBold;
-
-  list-style: disc;
 }
 
 #wishlist li {
@@ -568,6 +572,8 @@ main ul li {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+
+	list-style: none;
 }
 
 
@@ -589,6 +595,9 @@ main ul li {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	width: 100%;
+
+	list-style: none;
 }
 
 
@@ -754,6 +763,8 @@ figure:hover span::before {
 
 #reseaux_sociaux ul {
   margin-top: 2em;
+	margin-left: 0;
+	width: 100%;
 }
 
 #reseaux_sociaux li {
@@ -805,6 +816,9 @@ figure:hover span::before {
 }
 
 #main_article time {
+	display: block;
+	margin-top: 4.5em;
+	margin-left: 2em;
   font-size: 0.8em;
 }
 
