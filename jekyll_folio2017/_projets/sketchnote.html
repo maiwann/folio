@@ -6,7 +6,7 @@ problematique: Un peu de prise de notes graphiques
 
 {% for annee in site.sketchnotes %}
 <h1>{{annee.title}}</h1>
-<ul>
+<ul id="sketchnote_list">
   {% for sketchnote in annee.sketchnotes %}
   <li>
       <figure>

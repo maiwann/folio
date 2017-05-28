@@ -136,7 +136,6 @@ button {
 }
 
 main ul {
-  list-style: disc;
 	margin-left: 1em;
 
 	width: 80%;
@@ -236,8 +235,6 @@ main ul li {
   display: flex;
 	flex-direction: column;
 	align-items: center;
-
-	list-style: none;
 
 	height: 100%;
 }
@@ -572,8 +569,6 @@ main ul li {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-
-	list-style: none;
 }
 
 
@@ -596,8 +591,6 @@ main ul li {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	width: 100%;
-
-	list-style: none;
 }
 
 
@@ -700,6 +693,9 @@ figure:hover span::before {
   margin: 2em auto;
 }
 
+#main_projet ul {
+  list-style: disc;
+}
 
 #main_projet section > h1 {
   margin-top: 3em;
@@ -723,6 +719,12 @@ figure:hover span::before {
 
 #main_projet .lien_button {
   margin: 3em auto 4em;
+}
+
+/* Sketchnotes */
+
+ul#sketchnote_list {
+	list-style: none;
 }
 
 /*Me contacter*/
@@ -809,6 +811,10 @@ figure:hover span::before {
 
 #main_article p {
   margin: 2em auto;
+}
+
+#main_article ul {
+  list-style: disc;
 }
 
 #main_article section > h1 {
