@@ -2,23 +2,30 @@
 
 ## Avant la mise en ligne
 
-- Écrire le manifeste
+X - Écrire le manifeste
 
 X - Ajouter une page pour Mais encore
 
-- S'arranger pour que le manifeste ne soit pas dans la partie "écrire" ou "footer" tant qu'il n'y a pas de blog ->
+X  S'arranger pour que le manifeste ne soit pas dans la partie "écrire" ou "footer" tant qu'il n'y a pas de blog ->
   - pas considéré comme un article tant qu'il n'y a pas le blog ?
   - peut-être triche avec les dates ?
 
 X - Automatiser les sketchnotes
 
 - Tester sur différents navigateurs
+  - Chrome
+  - Firefox
+  - Edge
+  - Safari
+  - Mobile Firefox
+  - Mobile Chrome
+  - Mobile Safari
 
- - Écrire les pages projets
+X - Écrire les pages projets
   X - Lexigone
   X - Condor
   X - Sésame Emploi
-  - Chronique
+  X - Chronique
 
 X  - Vérifier format des vignettes
       - Quel format est le mieux ?
@@ -50,15 +57,20 @@ X  - Contenu:
 
 ## Rapport de bugs
 
-OK - Lien logo = localhost
+Mise en ligne - Lien logo = localhost
 
 - Largeur max du site pas assez large pour grand écran ?
 
 X - Moins d'espace sous les titres de Qui suis-je
 
+- Menu mobile ouvert par défaut
+
+- Problème version mobile sur certains téléphones
 
 
 ## Après la mise en ligne
+
+- Minimiser espaces champ formulaire contact
 
 - Diminuer la hauteur des boutons > Compliqué donc reporté
   - Taille typo
@@ -82,6 +94,13 @@ X - Moins d'espace sous les titres de Qui suis-je
     - Option de zoom à tester
     - Navigation latérale (liste des années et sujets + ancres)
 
+
+- Ajouter des pictos:
+  - Pour la wishlist ?
+  - Pour ce que j'aime faire
+
+- Réduire l'interlettrage des réseaux sociaux footer
+
 - Animer les barres de UX & Webdesign
 
 - Animer le logo (s'écrit au fur et à mesure)
@@ -96,3 +115,5 @@ X - Moins d'espace sous les titres de Qui suis-je
   - dont une partie Bibliothèque ?
 
 - Avoir des tags dans les articles
+
+- Centrer verticalement le logo competition = remuneration
