@@ -17,13 +17,13 @@ Au sein de l'agence Occitech, en réponse à leur appel d’offre pour une refon
 # Version mobile
 
 <figure>
-  <img src="../img/projets/sesame_emploi/mobile.png" alt="Version Mobile du site Sésame Emploi">
+  <img src="../img/projets/sesame_emploi/mobile.jpg" alt="Version Mobile du site Sésame Emploi">
   <figcaption> Maquette mobile de l'accueil </figcaption>
 </figure>
 
 # Version desktop
 
 <figure>
-  <img src="../img/projets/sesame_emploi/desktop.png" alt="Version Desktop du site Sésame Emploi">
+  <img src="../img/projets/sesame_emploi/desktop.jpg" alt="Version Desktop du site Sésame Emploi">
   <figcaption> Maquette desktop de l'accueil </figcaption>
 </figure>
