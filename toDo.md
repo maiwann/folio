@@ -12,14 +12,26 @@ X  S'arranger pour que le manifeste ne soit pas dans la partie "écrire" ou "foo
 
 X - Automatiser les sketchnotes
 
+- Prendre en photo les sketchnotes
+
 - Tester sur différents navigateurs
-  - Chrome
-  - Firefox
-  - Edge
-  - Safari
-  - Mobile Firefox
-  - Mobile Chrome
-  - Mobile Safari
+  - Mac
+    - Chrome
+    - Firefox
+    - Safari
+  - PC
+    - Chrome
+    - Firefox
+    - Edge
+  - Linux
+    - Chrome
+    - Firefox
+    - Edge
+  - Android
+    - Firefox
+    - Chrome
+  X - Iphone
+     - Safari
 
 X - Écrire les pages projets
   X - Lexigone
@@ -54,14 +66,15 @@ X  - Contenu:
       - Ajouter du line-height
       - Réduire la taille de la typo ? (un peu ?)
 
-- Reserrer les textes surtout pour les projets et les articles ->
+- Resserrer les textes surtout pour les projets et les articles ->
      Voir comment fait medium
      Ne pas oublier les très grands écrans
+     Faire en sorte d'avoir plus des "blocs de texte" donc réduire l'interlignage ?
 
 
 ## Rapport de bugs
 
-Mise en ligne - Lien logo = localhost
+X - Lien logo = localhost
 
 - Largeur max du site pas assez large pour grand écran ?
 
@@ -69,12 +82,14 @@ X - Moins d'espace sous les titres de Qui suis-je
 
 - Menu mobile ouvert par défaut
 
-- Problème version mobile sur certains téléphones
+X - Problème version mobile sur certains téléphones
 
-- Experience map Lexigone -> Floues
+X - Marge à droite version mobile
 
 
 ## Après la mise en ligne
+
+- Experience map Lexigone -> Floue
 
 - Minimiser espaces champ formulaire contact
 
@@ -91,21 +106,21 @@ X - Moins d'espace sous les titres de Qui suis-je
 
 - Proposer un zoom sur les images des projets
 
+- Centrer verticalement le logo competition = remuneration
+
 - Sketchnotes
-  - Prendre en photo
   - Mise en page:
     X - Année
     X - Sujet
     X - Image en pleine page
-    - Option de zoom à tester
-    - Navigation latérale (liste des années et sujets + ancres)
-
+    - Option de zoom
+    - Navigation ?latérale? (liste des années et sujets + ancres)
 
 - Ajouter des pictos:
-  - Pour la wishlist ?
+  - Pour la wishlist
   - Pour ce que j'aime faire
 
-- Réduire l'interlettrage des réseaux sociaux footer
+- Réduire l'interlignage des réseaux sociaux footer
 
 - Animer les barres de UX & Webdesign
 
@@ -121,5 +136,3 @@ X - Moins d'espace sous les titres de Qui suis-je
   - dont une partie Bibliothèque ?
 
 - Avoir des tags dans les articles
-
-- Centrer verticalement le logo competition = remuneration
