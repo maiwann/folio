@@ -54,6 +54,10 @@ X  - Contenu:
       - Ajouter du line-height
       - Réduire la taille de la typo ? (un peu ?)
 
+- Reserrer les textes surtout pour les projets et les articles ->
+     Voir comment fait medium
+     Ne pas oublier les très grands écrans
+
 
 ## Rapport de bugs
 
@@ -66,6 +70,8 @@ X - Moins d'espace sous les titres de Qui suis-je
 - Menu mobile ouvert par défaut
 
 - Problème version mobile sur certains téléphones
+
+- Experience map Lexigone -> Floues
 
 
 ## Après la mise en ligne
