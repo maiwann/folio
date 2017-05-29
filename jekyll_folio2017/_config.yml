@@ -22,6 +22,9 @@ description: > # this means to ignore newlines until "baseurl:"
     Découvrir, créer & partager accompagnée de personnes fiables et inspirantes, dans le respect de mes valeurs et toujours avec enthousiasme !
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+permalink: /:categories/:year/:month/:title
+
 twitter_username: maiwann_
 github_username:  null
 mastodon_username: maiwann
