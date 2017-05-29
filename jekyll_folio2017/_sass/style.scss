@@ -262,7 +262,7 @@ main ul li {
 	margin-bottom: -2px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
 	#main_header {
 	  flex-direction: row;
 	}
@@ -481,6 +481,7 @@ main ul li {
   margin: 2em;
 
   font-weight: $semiBold;
+	list-style: disc;
 }
 
 #wishlist li {
@@ -569,6 +570,7 @@ main ul li {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+	width: 100%;
 }
 
 
