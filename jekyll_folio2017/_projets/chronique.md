@@ -24,7 +24,7 @@ Pour un rendu rapide, le graphique résulte d'un export du tableau sur GoogleCal
 </figure>
 
 Parmis les améliorations prioritaires:
-- Création de graphe,
+- Création de graphe avec un temps linéaire,
 - Groupe d'observables,
 - Bouton pour une plage de temps indéterminée,
 - Bouton à plage de temps prédéfinie,
