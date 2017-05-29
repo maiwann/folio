@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Mon manifeste"
+title: Mon manifeste
 subtitle: ""
-date: 2017-05-11 22:25:13 +0200
+date: 2017-05-26 18:25:13 +0200
 vignette: null
 intro: ""
 nom_blog: le blog
+permalink: :title
 ---
 Je suis designer car j'aime faciliter la vie des gens. Je crois fermement en un monde où chacun·e doit fait sa part pour en améliorer l'ensemble, et la mienne correspond à améliorer l'expérience utilisateur·ice, pour que l'utilisation du numérique cesse d'être une frustration pour redevenir un progrès et un plaisir.
 
@@ -25,9 +26,9 @@ Le numérique et le web sont des secteurs portés par des passionnés, ce qui am
 
 # Partage de connaissances
 
-L'origine de mes connaissances est hétérogène car j'ai souvent appris grâce à des rencontres, parfois hasardeuses, mais toujours via des personnes bienveillantes. J'aime transmettre et documenter ce que je sais, c'est pourquoi la nouvelle version de ce site va bientôt s'agrémenter d'une partie Blog et d'une partie Veille.
+L'origine de mes connaissances est hétérogène car j'ai souvent appris à la faveur de rencontres, parfois hasardeuses, mais toujours grâce à des personnes bienveillantes. J'aime transmettre et documenter ce que je sais, c'est pourquoi la nouvelle version de ce site va bientôt s'agrémenter d'une partie Blog et d'une partie Veille.
 
-Mais au-delà, j'ai une vraie envie de partager mes connaissances avec des personnes curieuses, telles que des étudiants dans des écoles de graphisme ou d'informatique (entre autres), en parlant de conception centrée utilisateur, d'UX Design, de Responsive Design, d'ergonomie, du travail de façon plus globale…
+Mais au-delà, j'ai une vraie envie de partager mes connaissances avec des personnes curieuses, en intervenant dans des écoles de graphisme ou d'informatique, des entreprises ou encore des start-up, en parlant de conception centrée utilisateur, d'UX Design, de Responsive Design, d'ergonomie, du travail de façon plus globale…
 
 # Expérimenter
 
