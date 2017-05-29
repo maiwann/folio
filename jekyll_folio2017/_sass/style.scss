@@ -392,10 +392,13 @@ main ul li {
 }
 
 #competition_remuneration {
-	margin-top: 2.4em;
+	display: flex;
 
 	text-align: center;
+}
 
+#competition_remuneration a {
+	margin: auto;
 }
 
 
