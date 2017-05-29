@@ -262,6 +262,10 @@ main ul li {
 	margin-bottom: -2px;
 }
 
+#main_header nav ul.hide_menu {
+	display: none;
+}
+
 @media screen and (min-width: 750px) {
 	#main_header {
 	  flex-direction: row;
@@ -269,6 +273,10 @@ main ul li {
 
 	#main_header button {
 	  display: none;
+	}
+
+	#main_header nav ul.hide_menu {
+		display: flex;
 	}
 
 	#main_header nav ul {

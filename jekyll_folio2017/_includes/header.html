@@ -19,7 +19,7 @@
           </button>
         </div>
         <nav>
-          <ul id="main_navigation" style="display:flex">
+          <ul id="main_navigation">
             {% assign sorted_pages = site.html_pages | sort:"order" %}
               {% for page in sorted_pages %}
               <li>
@@ -34,17 +34,12 @@
     </header>
 
     <script>
-
-      var display_menu = "none";
-
+      document.getElementById("main_navigation").classList.add("hide_menu");
       document.getElementById("nav_button").onclick = function() {
-         if (display_menu == "none"){
-           display_menu = "flex";
-         }
-      else {
-         display_menu = "none";
-       }
-       document.getElementById("main_navigation").style.display = display_menu ;
-     }
-
+        if (document.getElementById("main_navigation").classList.contains("hide_menu")) {
+          document.getElementById("main_navigation").classList.remove("hide_menu")
+        } else {
+          document.getElementById("main_navigation").classList.add("hide_menu");
+        }
+      }
     </script>
