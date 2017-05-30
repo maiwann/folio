@@ -72,7 +72,7 @@ body {
 main {
   margin: 2em auto;
 	padding: 0 1em;
-	max-width: 900px;
+	max-width: 950px;
 
 	background: #ffffff;
 }
@@ -205,7 +205,7 @@ main ul li {
 
 	margin: auto;
 	padding: 0 1em;
-	max-width: 900px;
+	max-width: 950px;
 }
 
 #subheader {
@@ -738,6 +738,7 @@ main#main_projet {
 /* Sketchnotes */
 
 ul#sketchnote_list {
+	width: 100%;
 	list-style: none;
 }
 
@@ -773,7 +774,7 @@ ul#sketchnote_list {
   display: block;
   margin-bottom: 3em;
   padding: 0.2em 0.5em;
-  width: 90%;
+  width: 100%;
   height: 15em;
 }
 
