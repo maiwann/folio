@@ -16,19 +16,19 @@ Cet état d'esprit se concrétise sous plusieurs formes, liées de près ou de l
 
 Ce qui me plait ? Le fonctionnel. Me retrouver face à une problématique alambiquée pour réussir à concilier contraintes et besoins, c'est ce que je préfère. Pour le faire au mieux, j'ai un set de compétences dont:
 
-- L'UX Design, à travers la recherche utilisateur, qui me permet d'en savoir plus sur les problématiques rencontrées et d'analyser les véritables besoins des utilisateurs·ices. Personae, experience map, entretiens et tests utilisateurs font partie des méthodes que j'utilise.
+- L'UX Design, à travers la recherche utilisateur, qui me permet d'en savoir plus sur les problématiques rencontrées et d'analyser les véritables besoins des utilisateurs·ices. Personae, experience maps, entretiens et tests utilisateurs font partie des méthodes que j'utilise.
 
 - L'UI Design, qui correspond à la fois à l'aspect graphique et ergonomique d'une interface. L'objectif principal d'un bon design est de rendre l'interface utilisable, ce qui ne peut pas se faire sans être attentif à l'ergonomie. Le graphisme est là pour servir cet aspect en apportant cohérence et lisibilité à l'ensemble.
 
 # Collaboration
 
-Le numérique et le web sont des secteurs portés par des passionnés, ce qui amène les néophytes à devoir appréhender une grande quantité d'informations peu accessibles au premier abord. J'aime accompagner les personnes afin de leur donner les outils pour qu'elles comprennent quelles sont leurs possibilités, afin de leur permettre d'être autonomes vis à vis du numérique et de concrétiser leurs idées. Cela passe par du temps dédié à la discussion, à du conseil, voire à un temps de co-création pour s'approprier l'intention initiale si cela s'avère judicieux.
+Le numérique et le web sont des secteurs portés par des passionné·e·s, ce qui amène les néophytes à devoir appréhender une grande quantité d'informations peu accessibles au premier abord. J'aime accompagner les personnes afin de leur donner les outils pour qu'elles comprennent quelles sont leurs possibilités, leur permettre d'être autonomes vis à vis du numérique et les aider à concrétiser leurs idées. Cela passe par du temps dédié à la discussion, à du conseil, voire à un temps de co-création pour s'approprier l'intention initiale si cela s'avère judicieux.
 
 # Partage de connaissances
 
 L'origine de mes connaissances est hétérogène car j'ai souvent appris à la faveur de rencontres, parfois hasardeuses, mais toujours grâce à des personnes bienveillantes. J'aime transmettre et documenter ce que je sais, c'est pourquoi la nouvelle version de ce site va bientôt s'agrémenter d'une partie Blog et d'une partie Veille.
 
-Mais au-delà, j'ai une vraie envie de partager mes connaissances avec des personnes curieuses, en intervenant dans des écoles de graphisme ou d'informatique, des entreprises ou encore des start-up, en parlant de conception centrée utilisateur, d'UX Design, de Responsive Design, d'ergonomie, du travail de façon plus globale…
+Mais au-delà, j'ai une vraie envie de partager mes connaissances avec des personnes curieuses, en intervenant dans des écoles de graphisme ou d'informatique, des entreprises ou encore des start-up, pour parler de conception centrée utilisateur, d'UX Design, de Responsive Design, d'ergonomie, du travail de façon plus globale…
 
 # Expérimenter
 
@@ -38,7 +38,7 @@ Coté design, plutôt que faire des maquettes pixel perfect, je travaille en agi
 
 Sinon, j'apprends à utiliser git et github pour faciliter mes échanges avec les développeurs·euses et intégrateurs·trices tout en travaillant en open source.
 
-J'ai aussi participé à un [WalkingDev](http://walkingdev.fr/) EventStorming qui me semble correspondre à pas mal de problématiques d'incompréhension (inter développeurs, designers et utilisateurs) et que j'ai vraiment envie de creuser !
+J'ai aussi participé à un [WalkingDev](http://walkingdev.fr/) EventStorming qui me semble correspondre à pas mal de problématiques d'incompréhension (inter développeur·se·s, designers et utilisateur·ice·s) et que j'ai vraiment envie de creuser !
 
 # Éco-conception
 
@@ -50,7 +50,7 @@ Réaliser des sites adaptés à n'importe quelle taille d'écran est une de mes 
 
 # Conception inclusive & accessible
 
-Que se soit un site ou une application métier, j'aime concevoir pour des gens différents. L'accessibilité et le design inclusif, qui en est la prolongation, sont des principes qui me tiennent à coeur. J'essaye donc de réaliser des interfaces adaptées à tou·te·s, en gardant à l'esprit les contraintes de chacun·e·s.
+Que ce soit un site ou une application métier, j'aime concevoir pour des gens différents. L'accessibilité et le design inclusif, qui en est la prolongation, sont des principes qui me tiennent à coeur. J'essaye donc de réaliser des interfaces adaptées à tou·te·s, en gardant à l'esprit les contraintes de chacun·e·s.
 
 # Bien-être & Plaisir dans le travail
 
@@ -59,14 +59,14 @@ Je cherche à construire une façon de travailler qui allie plaisir et bien-êtr
 
 # Ergonomie & Santé au travail
 
-Comme j'aime beaucoup apprendre, j'ai rejoint la formation du CNAM Toulouse en ergonomie pour y apprendre de nouvelles méthodes et acquérir des connaissances (en psychologie cognitive notamment). A ma grande surprise, j'y ai découvert tout un pan de la discipline qui correspond à l'observation de la santé et du bien-être des travailleurs à travers les contraintes de performance, organisationnelles et matérielles d'une entreprise. J'en apprends donc beaucoup sur l'évolution du travail en France et des impacts qu'il peut avoir sur chacun.
+Comme j'aime beaucoup apprendre, j'ai rejoint la formation du CNAM Toulouse en ergonomie pour y apprendre de nouvelles méthodes et acquérir des connaissances (en psychologie cognitive notamment). A ma grande surprise, j'y ai découvert tout un pan de la discipline qui correspond à l'observation de la santé et du bien-être des travailleur·se·s à travers les contraintes de performance, organisationnelles et matérielles d'une entreprise. J'en apprends donc beaucoup sur l'évolution du travail en France et des impacts qu'il peut avoir sur chacun·e.
 
-Je découvre également des méthodes d'analyse de l'activité (grille d'observation, halo-confrontations, chroniques d'activité…), qui viennent enrichir ma boite à outils d'UX Designer.
+Je découvre également des méthodes d'analyse de l'activité (grilles d'observations, halo-confrontations, chroniques d'activité…), qui viennent enrichir ma boite à outils d'UX Designer.
 
 # Wishlist
 
 Pour conclure, j'ai élaboré une liste des types de projets qui résonnent avec ce que j'aimerai réaliser.
 Vous l'aurez compris, si votre projet porte des valeurs telles que l'accessibilité, l'open source, la bienveillance, l'inclusivité, l'éthique (liste non exhaustive), j'aimerai discuter avec vous de ce que je peux vous apporter.
-J'ai aussi des thèmes de prédilections qui sont l'environnement, l'enfance, l'éducation, la solidarité, l'engagement citoyen et le service public.
+J'ai aussi des thèmes de prédilections qui sont l'environnement, l'enfance, l'éducation, la solidarité, le service public, l'engagement citoyen et l'économie sociale et solidaire.
 
 N'hésitez pas à [me contacter](http://www.maiwann.net/me_contacter/) si vous avez des questions, des remarques, ou si vous avez envie de discuter =)
