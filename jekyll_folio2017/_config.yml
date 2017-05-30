@@ -21,7 +21,7 @@ description: > # this means to ignore newlines until "baseurl:"
     Concevoir pour tous afin de créer un monde éthique & inclusif où chacun puisse se sentir légitime.
     Découvrir, créer & partager accompagnée de personnes fiables et inspirantes, dans le respect de mes valeurs et toujours avec enthousiasme !
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.maiwann.net" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: /:categories/:year/:month/:title
 
