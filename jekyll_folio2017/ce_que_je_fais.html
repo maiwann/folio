@@ -104,14 +104,22 @@ order: 3
         <ul class="liste_projets">
           {% assign projets_side = site.projets | where: "categories", "side" %}
           {% for projet in projets_side %}
-          <a href="{{ projet.url }}">
-            <li class="vignette_projet">
-              <img src="{{ projet.vignette_url }}" alt="vignette du projet {{ projet.title }}">
-              <h1>{{ projet.title }}</h1>
-              <h3>{{ projet.competences }}</h3>
-              <h2>{{ projet.problematique }}</h2>
-            </li>
-          </a>
+
+          <li class="vignette_projet">
+            <a href="{{ projet.url }}">
+              <figure>
+                <img src="{{ projet.vignette_url }}" alt="vignette du projet {{ projet.title }}">
+              </figure>
+            </a>
+            <h1>
+              <a href="{{ projet.url }}">
+                {{ projet.title }}
+              </a>
+            </h1>
+            <h3>{{ projet.competences }}</h3>
+            <h2>{{ projet.problematique }}</h2>
+          </li>
+
           {% endfor %}
         </ul>
       </section>
