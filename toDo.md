@@ -12,22 +12,22 @@ X  S'arranger pour que le manifeste ne soit pas dans la partie "écrire" ou "foo
 
 X - Automatiser les sketchnotes
 
-- Prendre en photo les sketchnotes
+X - Prendre en photo les sketchnotes
 
-- Tester sur différents navigateurs
-  - Mac
-    - Chrome
-    - Firefox
-    - Safari
+X - Tester sur différents navigateurs
+  X - Mac
+      - Chrome
+      - Firefox
+      - Safari
   - PC
     - Chrome
     - Firefox
     - Edge
-  - Linux
+  X - Linux
     - Chrome
     - Firefox
     - Edge
-  - Android
+  X - Android
     - Firefox
     - Chrome
   X - Iphone
@@ -66,7 +66,7 @@ X  - Contenu:
       - Ajouter du line-height
       - Réduire la taille de la typo ? (un peu ?)
 
-- Resserrer les textes surtout pour les projets et les articles ->
+X - Resserrer les textes surtout pour les projets et les articles ->
      Voir comment fait medium
      Ne pas oublier les très grands écrans
      Faire en sorte d'avoir plus des "blocs de texte" donc réduire l'interlignage ?
@@ -76,11 +76,11 @@ X  - Contenu:
 
 X - Lien logo = localhost
 
-- Largeur max du site pas assez large pour grand écran ?
+X - Largeur max du site pas assez large pour grand écran ?
 
 X - Moins d'espace sous les titres de Qui suis-je
 
-- Menu mobile ouvert par défaut
+X - Menu mobile ouvert par défaut
 
 X - Problème version mobile sur certains téléphones
 
@@ -89,24 +89,17 @@ X - Marge à droite version mobile
 
 ## Après la mise en ligne
 
-- Experience map Lexigone -> Floue
+X - Minimiser espaces champ formulaire contact
 
-- Minimiser espaces champ formulaire contact
+X - ~ Ajouter un bouton "ce que je fais" sous la raison d'être ? ~
 
-- Diminuer la hauteur des boutons > Compliqué donc reporté
-  - Taille typo
-  - Padding
-  - Attention au mobile
+X - Vérifier le poids des images
 
-- Ajouter un bouton "ce que je fais" sous la raison d'être ?
-
-- Vérifier le poids des images
+X - Centrer verticalement le logo competition = remuneration
 
 - Sur PC, mettre cote à cote les figure projet qui sont peu larges (mobile)
 
-- Proposer un zoom sur les images des projets
-
-- Centrer verticalement le logo competition = remuneration
+- Proposer un zoom sur les images des projets (lightbox)
 
 - Sketchnotes
   - Mise en page:
@@ -120,7 +113,7 @@ X - Marge à droite version mobile
   - Pour la wishlist
   - Pour ce que j'aime faire
 
-- Réduire l'interlignage des réseaux sociaux footer
+X - Réduire l'interlignage des réseaux sociaux footer
 
 - Animer les barres de UX & Webdesign
 
