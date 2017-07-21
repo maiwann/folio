@@ -34,7 +34,7 @@ X - Tester sur différents navigateurs
      - Safari
 
 X - Écrire les pages projets
-  X - Lexigone
+  X - lexigơne
   X - Condor
   X - Sésame Emploi
   X - Chronique

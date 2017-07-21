@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> Lexigone - Portfolio de Maiwann alias Maïtané Lenoir - UX & Webdesigner freelance</title>
+    <title> Lexigơne - Portfolio de Maiwann alias Maïtané Lenoir - UX & Webdesigner freelance</title>
   </head>
   <body>
     <!--#include file="header.shtml" -->
     <main id="main_projet">
       <header>
-        <h1>Lexigone</h1>
+        <h1>Lexigơne</h1>
         <h3>UX Design · Experience Map</h3>
         <h2>Comment se déroule le processus de gestion d'un contrat ?</h2>
         <p>
-          Lexigone est une start-up cherchant à améliorer le processus de gestion de contrats des TPE/PME.
+          lexigơne est une start-up cherchant à améliorer le processus de gestion de contrats des TPE/PME.
           L’agence Occitech a été choisie pour les accompagner et a fait appel à moi afin de réaliser des entretiens utilisateurs, que j’ai ensuite synthétisé sous forme de personae et d’experience map.
         </p>
       </header>

@@ -27,8 +27,8 @@
         </header>
         <ul class="liste_projets">
           <li class="vignette_projet">
-            <img src="img/vignette/projets/lexigone.jpg" alt="vignette du projet Lexigone">
-            <h1>Lexigone</h1>
+            <img src="img/vignette/projets/lexigơne.jpg" alt="vignette du projet lexigơne">
+            <h1>Lexigơne</h1>
             <h3>UX Design · Expérience Map</h3>
             <h2>Comment se déroule le processus de gestion d'un contrat ?</h2>
           </li>
@@ -83,7 +83,7 @@
         <h1>Mais encore…</h1>
         <ul>
           <li class="vignette_projet">
-            <img src="img/vignette/projets/lexigone.jpg" alt="vignette du projet dico digital">
+            <img src="img/vignette/projets/lexigơne.jpg" alt="vignette du projet dico digital">
             <h1>Dico Digital</h1>
             <h3>Wireframe & Maquette Responsive</h3>
             <h2>Dictionnaire pour ceux qui disent digital au lieu de numérique</h2>
