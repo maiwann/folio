@@ -8,7 +8,7 @@ intro: ""
 nom_blog: le blog
 permalink: :title
 ---
-Je suis designer car j'aime faciliter la vie des gens. Je crois fermement en un monde où chacun·e doit fait sa part pour en améliorer l'ensemble, et la mienne correspond à améliorer l'expérience utilisateur·ice, pour que l'utilisation du numérique cesse d'être une frustration pour redevenir un progrès et un plaisir.
+Je suis designer car j'aime faciliter la vie des gens. Je crois fermement en un monde où chacun·e doit faire sa part pour en améliorer l'ensemble, et la mienne correspond à améliorer l'expérience utilisateur·ice, pour que l'utilisation du numérique cesse d'être une frustration pour redevenir un progrès et un plaisir.
 
 Cet état d'esprit se concrétise sous plusieurs formes, liées de près ou de loin à ma conception du design.
 
